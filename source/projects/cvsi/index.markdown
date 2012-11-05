@@ -18,15 +18,15 @@ See the [Castle Project web site][1] for more details.
 * __0.4.0:__ (07 Mar 2011, c6cbce9)
   * __VS2010:__ See the [Visual Studio Gallery][2]</a> (or search for 'castle' in the Visual Studio Extension Manager)
   * __VS2005/2008:__ No changes from 0.3.2
-* __0.3.2:__ <a href="cvsi/CVSI-0.3.2.msi">CVSI-0.3.2.msi</a> (1.26 MB, 30 Sep 2008, r625, VS2005/2008)
-* __0.3.1:__ <a href="cvsi/CVSI-0.3.1.msi">CVSI-0.3.1.msi</a> (1.26 MB, 15 Aug 2008, r616, VS2005/2008)
-* __0.3.0:__ <a href="cvsi/CVSI-0.3.0.msi">CVSI-0.3.0.msi</a> (1.26 MB, 29 Jun 2008, r576, VS2005/2008)
-* __0.2.1:__ <a href="cvsi/CVSI-0.2.1.zip">CVSI-0.2.1.zip</a> (178 KB, 29 Oct 2007, r339, VS2005)
-* __0.2.0:__ <a href="cvsi/CVSI-0.2.0-Alpha.zip">CVSI-0.2.0-Alpha.zip</a> (177 KB, 09 Oct 2007, r317, VS2005)
-* __0.1.3:__ <a href="cvsi/CVSI-0.1.3-Preview1Update.zip">CVSI-0.1.3-Preview1Update.zip</a> (23 KB, 27 Jul 2007, r257, VS2005)
-* __0.1.2:__ <a href="cvsi/CVSI-0.1.2-Preview1Update.zip">CVSI-0.1.2-Preview1Update.zip</a> (22 KB, 13 Jul 2007, r253, VS2005)
-* __0.1.1:__ <a href="cvsi/CVSI-0.1.1-Preview1Update.zip">CVSI-0.1.1-Preview1Update.zip</a> (22 KB, 12 Jul 2007, r252, VS2005)
-* __0.1.0:__ <a href="cvsi/CVSI-0.1-Preview1.msi">CVSI-0.1-Preview1.msi</a> (636 KB, 01 Jul 2007, r245, VS2005)
+* __0.3.2:__ <a href="CVSI-0.3.2.msi">CVSI-0.3.2.msi</a> (1.26 MB, 30 Sep 2008, r625, VS2005/2008)
+* __0.3.1:__ <a href="CVSI-0.3.1.msi">CVSI-0.3.1.msi</a> (1.26 MB, 15 Aug 2008, r616, VS2005/2008)
+* __0.3.0:__ <a href="CVSI-0.3.0.msi">CVSI-0.3.0.msi</a> (1.26 MB, 29 Jun 2008, r576, VS2005/2008)
+* __0.2.1:__ <a href="CVSI-0.2.1.zip">CVSI-0.2.1.zip</a> (178 KB, 29 Oct 2007, r339, VS2005)
+* __0.2.0:__ <a href="CVSI-0.2.0-Alpha.zip">CVSI-0.2.0-Alpha.zip</a> (177 KB, 09 Oct 2007, r317, VS2005)
+* __0.1.3:__ <a href="CVSI-0.1.3-Preview1Update.zip">CVSI-0.1.3-Preview1Update.zip</a> (23 KB, 27 Jul 2007, r257, VS2005)
+* __0.1.2:__ <a href="CVSI-0.1.2-Preview1Update.zip">CVSI-0.1.2-Preview1Update.zip</a> (22 KB, 13 Jul 2007, r253, VS2005)
+* __0.1.1:__ <a href="CVSI-0.1.1-Preview1Update.zip">CVSI-0.1.1-Preview1Update.zip</a> (22 KB, 12 Jul 2007, r252, VS2005)
+* __0.1.0:__ <a href="CVSI-0.1-Preview1.msi">CVSI-0.1-Preview1.msi</a> (636 KB, 01 Jul 2007, r245, VS2005)
 
 ### Source Code & License
 <p style="float: right;">
