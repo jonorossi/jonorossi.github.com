@@ -41,15 +41,15 @@ See the [Castle Project web site][1] for more details.
 [{% img /projects/cvsi/screenshots/colorizer_large.png %}](/projects/cvsi/screenshots/colorizer_large.png)
 
 #### Directives
-{% img /projects/cvsi/screenshots/directives.png %}]
+{% img /projects/cvsi/screenshots/directives.png %}
     
 #### Helpers
-{% img /projects/cvsi/screenshots/helpers.png %}]
-{% img /projects/cvsi/screenshots/helper-methods.png %}]
-{% img /projects/cvsi/screenshots/helper-method-overloads.png %}]
+{% img /projects/cvsi/screenshots/helpers.png %}
+{% img /projects/cvsi/screenshots/helper-methods.png %}
+{% img /projects/cvsi/screenshots/helper-method-overloads.png %}
 
 #### View Components
-{% img /projects/cvsi/screenshots/viewcomponents.png %}]
+{% img /projects/cvsi/screenshots/viewcomponents.png %}
 
 [1]: http://www.castleproject.org/castle/vsintegration.html
 [2]: http://visualstudiogallery.msdn.microsoft.com/5f5f4523-95f6-4277-b499-959950368a4d

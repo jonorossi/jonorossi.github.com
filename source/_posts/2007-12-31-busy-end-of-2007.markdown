@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Busy end of 2007"
+date: 2007-12-31 21:00:03
+comments: true
+categories: Personal
+alias: /blog/archive/2007/12/31/busy-end-of-2007.aspx
+---
+
+This blog has been pretty quiet since I last made a release of Castle Visual Studio Integration, but I do have a pretty good excuse.
+
+I completed my Bachelor of Information Technology at [QUT][1] in November, and after a short break to recover from all the lost sleep,
+I started work at [Transmax][2]. We build intelligent transport systems in Australia by providing a complete solution to traffic authorities,
+including signal, motorway and incident management. If you are interested in learning more or are looking for a new job in Brisbane, Australia,
+then head to our web site or send me an email.
+
+In the week before starting work I ordered the parts to build my new computer because my old desktop just wasn't cutting it anymore. My old
+computer was well past its use by date for a developer/power user and I had just been putting it off because I was always busy with university
+work and I didn't want to set everything up again. My new computer is pretty standard compared to what most developers are using these days.
+It is an AMD Athlon 64 X2 with 4GB of RAM, running Windows Vista 64-bit. I'll go into more detail about my new computer and my experiences
+of Windows Vista 64-bit in another post.
+
+At home, as an early Christmas present we got a new Samsung 81cm HD LCD TV, so I have been watching more TV and movies. I was so used to our
+older, much smaller CRT TV that, I didn't realise how much I was actually missing of what was going on in TV shows because the TV is so much
+clearer and brighter. We also upgraded our [HTPC][3] when we shuffled around our computers.
+
+Slowly, over the last month and a bit my brother and I have been rearranging our network. My old desktop is now my Dad's new desktop and with
+that came many other changes, some complete rebuilds, some just hardware component switches between machines. One of my brother's machines
+became our new HTPC and from other changes I made a new machine for our [NAS][4]. I plan to write about what I am doing with our network and
+how I have set it up in a new post in the new year.
+
+To finish things off I bought a new phone, a [HTC TyTN II][5]. My old phone, a [Nokia 6610][6] has been playing up for a while, mainly some of
+the buttons would stop working. I hadn't decided what phone I wanted until the loudspeaker/ringer in the phone stopped working a couple months
+ago, so I was forced to make a decision. I got my new Windows Mobile phone the day after Boxing Day from [3][7] and I am really liking Windows
+Mobile. I'll follow up on my experience with this phone in the next few days.
+
+Happy New Year
+
+[1]: http://www.qut.edu.au
+[2]: http://www.transmax.com.au/
+[3]: http://en.wikipedia.org/wiki/Home_theater_PC
+[4]: http://en.wikipedia.org/wiki/Network-attached_storage
+[5]: http://www.htc.com/product/03-product_tytn_II.htm
+[6]: http://www.nokia.com.au/A4520430
+[7]: http://www.three.com.au/

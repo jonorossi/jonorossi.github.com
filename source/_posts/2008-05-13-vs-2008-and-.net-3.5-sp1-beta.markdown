@@ -1,0 +1,21 @@
+---
+layout: post
+title: "VS 2008 and .NET 3.5 SP1 Beta"
+date: 2008-05-13 22:37:08
+comments: true
+categories: .NET
+alias: /blog/archive/2008/05/13/vs-2008-and-.net-3.5-sp1-beta.aspx
+---
+
+Scott Guthrie recently announced the release of [Visual Studio 2008 and .NET Framework 3.5 Service Pack 1 Beta][1].
+
+I think it is good and all that they are building some nice new features, but I get this feeling that the naming of this release is going to
+cause problems. I suspect that most developers/users assume a service pack will contain bug fixes and maybe a few very minor features.
+I can see this becoming confusing for people where they have the .NET Framework 3.5 and can't run something because they need SP1.
+This same issue has started to become a problem with .NET Framework 2.0/2.0 SP1, so I'm sure the same problem will occur on a much larger
+scale with 3.5/3.5 SP1.
+
+Is it just me or should Microsoft really be going to .NET Framework 3.6 or something similar? Maybe developers will just have to start referring
+to 3.5 SP1 as 3.5.1.
+
+[1]: http://weblogs.asp.net/scottgu/archive/2008/05/12/visual-studio-2008-and-net-framework-3-5-service-pack-1-beta.aspx

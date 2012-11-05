@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Welcome"
+date: 2007-09-19 23:47:33
+comments: true
+categories: Personal
+alias: /blog/archive/2007/09/19/welcome.aspx
+---
+
+Hello, my name is Jonathon Rossi and I'm a student nearing the completion of my Bachelor of Information Technology at QUT in
+Brisbane, Australia. This is the mandatory first 'welcome to my blog' post that all new bloggers seem to do.
+
+I'm a .NET software developer and am interested in the work many others are doing and have been a member of the Castle Project
+open source community for a while. I don't have a set plan on what I will be blogging about, however it will probably include
+current projects I am working on and details of the topics I am learning about.
+
+Without further ado, welcome to my blog.

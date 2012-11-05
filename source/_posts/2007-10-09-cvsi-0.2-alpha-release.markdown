@@ -1,0 +1,33 @@
+---
+layout: post
+title: "CVSI 0.2 Alpha Release"
+date: 2007-10-09 19:13:52
+comments: true
+categories: Castle
+alias: /blog/archive/2007/10/09/cvsi-0.2-alpha-release.aspx
+---
+
+After way too many hours on working on Castle Visual Studio Integration, I am now releasing an alpha release of 0.2.x.
+
+In this release I am using Mono.Cecil to reflect over the binaries, because of the well known limitations of System.Reflection and its
+AppDomain problems. CVSI requires that you build your project for the classes and methods to show up in IntelliSense, which is really
+a minor problem at this stage. Visual Studio has a complex code model for files in the current project that can be used to read class
+and method information from the source files, however I don't have the time to invest in working it out.
+
+A few things I'd like to point out before you jump in and download this release. The IntelliSense can sometimes take a while to appear
+because I have not implemented any caching of the assemblies, which means it reloads them every time you perform an IntelliSense action.
+Castle Visual Studio Integration also terminates the Castle.NVelocity parser pretty often because the parser does not complete in a set
+period of time. This is usually caused by a bug in the parser causing it to run endlessly.
+
+IMPORTANT: The final thing I want to mention is that this is an alpha release and I really mean that compared to the quality of the current
+release. This release can cause problems and annoy the hell out of you. Luckily, if it is too buggy for you, you can easily delete the new
+assemblies and drop in the old ones (0.1.3).
+
+I'd appreciate any bug reports filed in the Castle JIRA contrib project with Castle Visual Studio Integration as the component. This will
+allow me to keep track of the problems. I'd really appreciate it if you could try to narrow down problems reported in your views to the
+smallest amount of template and not paste in hundreds of lines of view code.
+
+You can download this release at the link below, or if you are not convinced check out the screenshots to see what new features are available
+in this release.
+
+[Download Castle Visual Studio Integration 0.2.0 Alpha or view several screenshots](/projects/cvsi/) of the features that 0.2.0 Alpha introduces.

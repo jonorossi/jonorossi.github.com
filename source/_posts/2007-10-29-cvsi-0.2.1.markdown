@@ -1,0 +1,21 @@
+---
+layout: post
+title: "CVSI 0.2.1"
+date: 2007-10-29 18:06:19
+comments: true
+categories: Castle
+alias: /blog/archive/2007/10/29/cvsi-0.2.1.aspx
+---
+
+Over the last week and a bit I have been working to get Castle Visual Studio Integration much more stable for a university tradeshow
+where I will be presenting it this Wednesday. This release is much better than the 0.2.0 release that was really rough, which was why
+I labeled 0.2.0 alpha.
+
+This release also adds intellisense for 'foreach' directives, so that the loop iterator is added to the scope of the intellisense.
+
+This release is like all the update releases I have made and it only comes with the assemblies, you will need to install CVSI 0.1.0
+using the MSI and unzip the files into the installation directory. This allows you to go back to an older build if there are problems.
+
+[Download Castle Visual Studio Integration 0.2.1][1]
+
+[1]: /projects/cvsi/

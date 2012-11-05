@@ -1,0 +1,15 @@
+---
+layout: post
+title: "NVelocity 1.1 and TemplateEngine 1.1"
+date: 2009-09-29 00:42:49
+comments: true
+categories: Castle
+alias: /blog/archive/2009/09/29/nvelocity-1.1-and-templateengine-1.1.aspx
+---
+
+Castle NVelocity 1.1.0 and the Castle TemplateEngine component 1.1.0 have just been released. Many thanks to the TemplateEngine project
+lead John Simons.
+
+Visit the [Castle Project web site][1] for download details.
+
+[1]: http://www.castleproject.org/
