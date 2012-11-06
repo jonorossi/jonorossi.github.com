@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Azure Endpoints and Load Balancing at the Brisbane Azure User Group"
-date: 2012-05-26 23:40:00
+date: 2012-05-26 13:40:00Z
 comments: true
 categories: Azure
 alias: /blog/archive/2012/05/26/azure-endpoints-and-load-balancing-baug.aspx

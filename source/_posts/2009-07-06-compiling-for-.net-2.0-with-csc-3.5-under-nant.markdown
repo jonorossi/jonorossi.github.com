@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Compiling for .NET 2.0 with Csc 3.5 under NAnt"
-date: 2009-07-06 22:52:35
+date: 2009-07-06 12:52:35Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/07/06/compiling-for-.net-2.0-with-csc-3.5-under-nant.aspx

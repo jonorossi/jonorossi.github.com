@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Network Switches and 'The Dell Experience'"
-date: 2008-01-08 23:26:46
+date: 2008-01-08 13:26:46Z
 comments: true
 categories: Networking
 alias: /blog/archive/2008/01/08/network-switches-and-the-dell-experience.aspx

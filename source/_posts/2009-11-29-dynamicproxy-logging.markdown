@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DynamicProxy Logging"
-date: 2009-11-29 18:21:23
+date: 2009-11-29 08:21:23Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/11/29/dynamicproxy-logging.aspx

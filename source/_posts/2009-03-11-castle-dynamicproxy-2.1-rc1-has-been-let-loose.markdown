@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Castle DynamicProxy 2.1 RC1 has been let loose"
-date: 2009-03-11 00:43:14
+date: 2009-03-10 14:43:14Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/03/11/castle-dynamicproxy-2.1-rc1-has-been-let-loose.aspx

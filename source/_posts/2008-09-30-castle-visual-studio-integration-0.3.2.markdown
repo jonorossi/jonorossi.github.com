@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Castle Visual Studio Integration 0.3.2"
-date: 2008-09-30 22:29:50
+date: 2008-09-30 12:29:50Z
 comments: true
 categories: Castle
 alias: /blog/archive/2008/09/30/castle-visual-studio-integration-0.3.2.aspx

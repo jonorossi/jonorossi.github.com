@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Domain names for every network device"
-date: 2008-01-15 22:09:24
+date: 2008-01-15 12:09:24Z
 comments: true
 categories: Networking
 alias: /blog/archive/2008/01/15/domain-names-for-every-network-device.aspx

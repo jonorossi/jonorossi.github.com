@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NVelocity 1.1 and TemplateEngine 1.1"
-date: 2009-09-29 00:42:49
+date: 2009-09-28 14:42:49Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/09/29/nvelocity-1.1-and-templateengine-1.1.aspx

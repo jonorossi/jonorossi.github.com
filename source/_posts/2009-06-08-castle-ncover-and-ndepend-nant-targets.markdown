@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Castle NCover and NDepend NAnt targets"
-date: 2009-06-08 21:01:44
+date: 2009-06-08 11:01:44Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/06/08/castle-ncover-and-ndepend-nant-targets.aspx

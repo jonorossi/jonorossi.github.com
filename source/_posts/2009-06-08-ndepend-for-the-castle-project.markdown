@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NDepend for the Castle Project"
-date: 2009-06-08 02:13:11
+date: 2009-06-07 16:13:11Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/06/08/ndepend-for-the-castle-project.aspx

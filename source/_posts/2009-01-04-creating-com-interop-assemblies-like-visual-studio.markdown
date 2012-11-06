@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Creating COM interop assemblies like Visual Studio"
-date: 2009-01-04 01:33:53
+date: 2009-01-03 15:33:53Z
 comments: true
 categories: .NET
 alias: /blog/archive/2009/01/04/creating-com-interop-assemblies-like-visual-studio.aspx

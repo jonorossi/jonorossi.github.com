@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CVSI 0.2.1"
-date: 2007-10-29 18:06:19
+date: 2007-10-29 08:06:19Z
 comments: true
 categories: Castle
 alias: /blog/archive/2007/10/29/cvsi-0.2.1.aspx

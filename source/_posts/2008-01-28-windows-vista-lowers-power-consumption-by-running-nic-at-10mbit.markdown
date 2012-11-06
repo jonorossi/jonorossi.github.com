@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Windows Vista lowers power consumption by running NIC at 10Mbit"
-date: 2008-01-28 23:27:37
+date: 2008-01-28 13:27:37Z
 comments: true
 categories: Windows
 alias: /blog/archive/2008/01/28/windows-vista-lowers-power-consumption-by-running-nic-at-10mbit.aspx

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Recent Castle Project Lead Changes"
-date: 2008-10-31 23:08:04
+date: 2008-10-31 13:08:04Z
 comments: true
 categories: Castle
 alias: /blog/archive/2008/10/31/recent-castle-project-lead-changes.aspx

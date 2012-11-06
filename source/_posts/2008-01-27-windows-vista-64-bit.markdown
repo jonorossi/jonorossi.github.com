@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Windows Vista 64-bit"
-date: 2008-01-27 15:22:30
+date: 2008-01-27 05:22:30Z
 comments: true
 categories: Windows
 alias: /blog/archive/2008/01/27/windows-vista-64-bit.aspx

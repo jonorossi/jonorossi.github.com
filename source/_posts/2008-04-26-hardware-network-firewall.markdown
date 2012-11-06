@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hardware Network Firewall"
-date: 2008-04-26 16:32:22
+date: 2008-04-26 06:32:22Z
 comments: true
 categories: Networking
 alias: /blog/archive/2008/04/26/hardware-network-firewall.aspx

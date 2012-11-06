@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "VS 2008 and .NET 3.5 SP1 Beta"
-date: 2008-05-13 22:37:08
+date: 2008-05-13 12:37:08Z
 comments: true
 categories: .NET
 alias: /blog/archive/2008/05/13/vs-2008-and-.net-3.5-sp1-beta.aspx

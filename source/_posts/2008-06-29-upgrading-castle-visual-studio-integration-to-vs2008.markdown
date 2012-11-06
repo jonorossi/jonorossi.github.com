@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Upgrading Castle Visual Studio Integration to VS2008"
-date: 2008-06-29 18:41:32
+date: 2008-06-29 08:41:32Z
 comments: true
 categories: Castle
 alias: /blog/archive/2008/06/29/upgrading-castle-visual-studio-integration-to-vs2008.aspx

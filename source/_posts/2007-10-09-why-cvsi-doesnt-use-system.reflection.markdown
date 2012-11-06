@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why CVSI doesn't use System.Reflection"
-date: 2007-10-09 22:18:07
+date: 2007-10-09 12:18:07Z
 comments: true
 categories: Castle
 alias: /blog/archive/2007/10/09/why-cvsi-doesnt-use-system.reflection.aspx

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WiX Progress Text for a Custom Action"
-date: 2008-07-20 21:09:56
+date: 2008-07-20 11:09:56Z
 comments: true
 categories: Wix
 alias: /blog/archive/2008/07/20/wix-progress-text-for-a-custom-action.aspx

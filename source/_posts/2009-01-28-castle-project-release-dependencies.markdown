@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Castle Project Release Dependencies"
-date: 2009-01-28 23:22:43
+date: 2009-01-28 13:22:43Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/01/28/castle-project-release-dependencies.aspx

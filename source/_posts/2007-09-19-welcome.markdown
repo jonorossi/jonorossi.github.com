@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Welcome"
-date: 2007-09-19 23:47:33
+date: 2007-09-19 13:47:33Z
 comments: true
 categories: Personal
 alias: /blog/archive/2007/09/19/welcome.aspx

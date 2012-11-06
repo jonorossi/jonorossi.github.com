@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Calling Control.Invoke() with anonymous methods"
-date: 2008-03-02 22:20:52
+date: 2008-03-02 12:20:52Z
 comments: true
 categories: .NET
 alias: /blog/archive/2008/03/02/calling-control.invoke-with-anonymous-methods.aspx

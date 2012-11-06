@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remove an NCover license from a machine"
-date: 2009-01-07 21:46:18
+date: 2009-01-07 11:46:18Z
 comments: true
 categories: NCover
 alias: /blog/archive/2009/01/07/remove-an-ncover-license-from-a-machine.aspx

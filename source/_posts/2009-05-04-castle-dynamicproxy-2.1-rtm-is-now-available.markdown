@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Castle DynamicProxy 2.1 RTM is now available"
-date: 2009-05-04 23:17:52
+date: 2009-05-04 13:17:52Z
 comments: true
 categories: Castle
 alias: /blog/archive/2009/05/04/castle-dynamicproxy-2.1-rtm-is-now-available.aspx

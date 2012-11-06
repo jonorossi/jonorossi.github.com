@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CVSI Preview 2 Progress"
-date: 2007-09-23 20:29:49
+date: 2007-09-23 10:29:49Z
 comments: true
 categories: Castle
 alias: /blog/archive/2007/09/23/cvsi-preview-2-progress.aspx

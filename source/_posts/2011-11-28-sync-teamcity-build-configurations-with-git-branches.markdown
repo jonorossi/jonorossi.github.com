@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sync TeamCity build configurations with Git branches"
-date: 2011-11-28 01:18:00
+date: 2011-11-27 15:18:00Z
 comments: true
 categories: TeamCity
 alias: /blog/archive/2011/11/28/sync-teamcity-build-configurations-with-git-branches.aspx

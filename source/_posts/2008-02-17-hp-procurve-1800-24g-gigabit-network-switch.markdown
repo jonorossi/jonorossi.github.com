@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HP ProCurve 1800-24G Gigabit Network Switch"
-date: 2008-02-17 23:20:32
+date: 2008-02-17 13:20:32Z
 comments: true
 categories: Networking
 alias: /blog/archive/2008/02/17/hp-procurve-1800-24g-gigabit-network-switch.aspx
