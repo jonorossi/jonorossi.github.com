@@ -22,5 +22,5 @@ than 3.0 microsecond 1000Mbps latency.
 If you or your employer is looking for a gigabit network switch then you should seriously consider the HP ProCurve 1800-24G over cheaper
 brands. I have been really happy with it since I got it nearly a week ago.
 
-[1]: /blog/2008/01/09/network-switches-and-the-dell-experience/
+[1]: /blog/2008/01/08/network-switches-and-the-dell-experience/
 [2]: http://www.hp.com/rnd/products/switches/ProCurve_Switch_1800_Series/overview.htm

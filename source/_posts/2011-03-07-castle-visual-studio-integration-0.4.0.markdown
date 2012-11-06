@@ -14,4 +14,4 @@ but just didn't get around to releasing it.
 
 You can now download the source code from GitHub and get the binaries via the Visual Studio Extension Manager. See the [CVSI page][1] for full details.
 
-[1]: http://jonorossi.com/projects/cvsi/
+[1]: /projects/cvsi/
