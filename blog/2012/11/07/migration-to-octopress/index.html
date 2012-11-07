@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Sync TeamCity build configurations with Git branches - Jonathon Rossi</title>
+  <title>Migration to Octopress - Jonathon Rossi</title>
   <meta name="author" content="Jonathon Rossi">
 
   
-  <meta name="description" content="A few months ago at work we moved from Subversion to Git, which has caused us to make many process changes within our development team.
-By forcing &hellip;">
+  <meta name="description" content="I&#8217;ve been very quiet on this blog for quite some time now. I partly blame my limited use of my blog on the dread of having to use
+the poor &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ By forcing &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jonorossi.com/blog/2011/11/27/sync-teamcity-build-configurations-with-git-branches/">
+  <link rel="canonical" href="http://jonorossi.com/blog/2012/11/07/migration-to-octopress/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,7 +82,7 @@ By forcing &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Sync TeamCity build configurations with Git branches</h1>
+      <h1 class="entry-title">Migration to Octopress</h1>
     
     
       <p class="meta">
@@ -98,30 +98,41 @@ By forcing &hellip;">
   
 
 
-<time datetime="2011-11-27T15:18:00Z" pubdate data-updated="true">Nov 27<span>th</span>, 2011</time>
+<time datetime="2012-11-07T12:04:49Z" pubdate data-updated="true">Nov 7<span>th</span>, 2012</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>A few months ago at work we moved from Subversion to Git, which has caused us to make many process changes within our development team.
-By forcing everyone to work in a new Git branch for every task has added overhead to the build management process. Several of us have
-slowly been getting tired of manually creating new TeamCity build configurations just to run a single build that we later have to manually
-remove after our release managers have merged our changes.</p>
+<div class="entry-content"><p><img class="right" src="/files/2012/octopress_logo.png"></p>
 
-<p>To remove some of this burden we needed TeamCity to automatically create configurations for all our private development branches, so in
-lieu of the excellent JetBrains team building this feature (<a href="http://youtrack.jetbrains.net/issue/TW-16052">TW-16052</a>), I very quickly wrote an app that does just that for us.</p>
+<p>I&#8217;ve been very quiet on this blog for quite some time now. I partly blame my limited use of my blog on the dread of having to use
+the poor WYSIWYG editor that shiped as part of the version of the <a href="http://subtextproject.com/">Subtext</a> blog engine my blog was running.</p>
 
-<p>I was asked by a few in the TeamCity issue above to provide the code we are using, so I have uploaded a slightly modified version of the
-code to GitHub. The app is written in C# and uses the <a href="https://github.com/libgit2/libgit2sharp">libgit2sharp</a> library, but could easily be ported to another language or the
-command line tools respectively.</p>
+<p>I&#8217;ve finally taken the plunge like many others to move to a blogging platform where the server side is powered by just static files
+generated from clean Markdown files reducing vender lock-in if I decide to move to another blogging platform in 5 years time.
+I&#8217;ve chosen <a href="http://octopress.org/">Octopress</a> (which builds on <a href="https://github.com/mojombo/jekyll">Jekyll</a>) as it provides all the goodies that a usual blog needs.</p>
 
-<p>So that a few things make sense when you read it, our private development branch convention is &#8220;private/username/anything&#8221;, so with a single
-TeamCity project for these branches it will name them &#8220;username-anything&#8221;. You&#8217;ll see that when it creates the build configuration it creates
-it from our branch template and sets the BRANCH_NAME configuration variable, which we use as the Ref name in a VCS root (i.e. %BRANCH_NAME%).</p>
+<p>I&#8217;m not going to explain how easy it is to set up, as I&#8217;ll let others do that, but I&#8217;ll provide some resources that I found useful:</p>
 
-<p><a href="https://gist.github.com/1397643">https://gist.github.com/1397643</a></p>
+<ul>
+<li><a href="http://octopress.org/docs/setup/">Official Documentation</a></li>
+<li><a href="http://blog.zerosharp.com/setting-up-octopress-on-windows/">Octopress on Windows and GitHub</a></li>
+<li><a href="https://github.com/tsmango/jekyll_alias_generator">Jekyll Alias Generator for Posts</a></li>
+</ul>
+
+
+<p>Octopress has built in support for <a href="http://disqus.com/">Disqus Comments</a>, but since the value of the comments on my blog since I started have been so low
+and the spam ratio so high, I&#8217;ve decided to not have any comments on my new blog, and have enabled the twitter integration if anyone
+would like to discuss any of my posts.</p>
+
+<p>Octopress&#8217;s script to generate a new post (<code>rake new_post</code>) does not seem to handle time zones very well by default, everything will
+work fine as long as you stay in the same time zone. This caused me problems when I was manually migrating the content from the Subtext
+database. I made a <a href="https://github.com/jonorossi/jonorossi.github.com/commit/3573bc962fe38004c9d511d79892889431c8b073">change</a> to the new post script to always store the UTC time in the post&#8217;s &#8220;front matter&#8221; which you might fine useful.</p>
+
+<p>That&#8217;s all from me for now, but I hope to make more use of my blog, because reflecting over my blog posts of the last 5 years has shown
+me that I&#8217;ve definitely come a long way and that I now more than ever have something to contribute back.</p>
 </div>
 
 
@@ -144,21 +155,15 @@ it from our branch template and sets the BRANCH_NAME configuration variable, whi
   
 
 
-<time datetime="2011-11-27T15:18:00Z" pubdate data-updated="true">Nov 27<span>th</span>, 2011</time>
+<time datetime="2012-11-07T12:04:49Z" pubdate data-updated="true">Nov 7<span>th</span>, 2012</time>
       
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/teamcity/'>TeamCity</a>
-  
-</span>
 
 
     </p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jonorossi.com/blog/2011/11/27/sync-teamcity-build-configurations-with-git-branches/" data-via="jonorossi" data-counturl="http://jonorossi.com/blog/2011/11/27/sync-teamcity-build-configurations-with-git-branches/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jonorossi.com/blog/2012/11/07/migration-to-octopress/" data-via="jonorossi" data-counturl="http://jonorossi.com/blog/2012/11/07/migration-to-octopress/" >Tweet</a>
   
   
   
@@ -167,10 +172,8 @@ it from our branch template and sets the BRANCH_NAME configuration variable, whi
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2011/03/07/castle-visual-studio-integration-0.4.0/" title="Previous Post: Castle Visual Studio Integration 0.4.0">&laquo; Castle Visual Studio Integration 0.4.0</a>
+        <a class="basic-alignment left" href="/blog/2012/05/26/azure-endpoints-and-load-balancing-baug/" title="Previous Post: Azure Endpoints and Load Balancing at the Brisbane Azure User Group">&laquo; Azure Endpoints and Load Balancing at the Brisbane Azure User Group</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2012/05/26/azure-endpoints-and-load-balancing-baug/" title="Next Post: Azure Endpoints and Load Balancing at the Brisbane Azure User Group">Azure Endpoints and Load Balancing at the Brisbane Azure User Group &raquo;</a>
       
     </p>
   </footer>
