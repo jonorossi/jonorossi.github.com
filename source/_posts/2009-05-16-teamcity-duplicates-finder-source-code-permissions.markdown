@@ -4,7 +4,7 @@ title: "TeamCity Duplicates Finder Source Code Permissions"
 date: 2009-05-15 22:18:07Z
 comments: true
 categories: TeamCity
-alias: /blog/archive/2009/05/16/teamcity-duplicates-finder-source-code-permissions.aspx
+alias: /blog/archive/2009/05/16/teamcity-duplicates-finder-source-code-permissions.aspx/index.html
 ---
 
 [{% img right /files/2009/TeamCity_ViewVCSFileContentPermission.png 260 %}](/files/2009/TeamCity_ViewVCSFileContentPermission.png)

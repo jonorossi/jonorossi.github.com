@@ -4,7 +4,7 @@ title: "NVelocity 1.1 and TemplateEngine 1.1"
 date: 2009-09-28 14:42:49Z
 comments: true
 categories: Castle
-alias: /blog/archive/2009/09/29/nvelocity-1.1-and-templateengine-1.1.aspx
+alias: /blog/archive/2009/09/29/nvelocity-1.1-and-templateengine-1.1.aspx/index.html
 ---
 
 Castle NVelocity 1.1.0 and the Castle TemplateEngine component 1.1.0 have just been released. Many thanks to the TemplateEngine project

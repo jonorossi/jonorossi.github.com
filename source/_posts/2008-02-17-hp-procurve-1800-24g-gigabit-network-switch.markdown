@@ -4,7 +4,7 @@ title: "HP ProCurve 1800-24G Gigabit Network Switch"
 date: 2008-02-17 13:20:32Z
 comments: true
 categories: Networking
-alias: /blog/archive/2008/02/17/hp-procurve-1800-24g-gigabit-network-switch.aspx
+alias: /blog/archive/2008/02/17/hp-procurve-1800-24g-gigabit-network-switch.aspx/index.html
 ---
 
 As a follow up to [my post about getting a 24 port gigabit network switch][1], I have purchased one, but not the one I had planned to.

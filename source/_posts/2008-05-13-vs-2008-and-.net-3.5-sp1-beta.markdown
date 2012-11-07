@@ -4,7 +4,7 @@ title: "VS 2008 and .NET 3.5 SP1 Beta"
 date: 2008-05-13 12:37:08Z
 comments: true
 categories: .NET
-alias: /blog/archive/2008/05/13/vs-2008-and-.net-3.5-sp1-beta.aspx
+alias: /blog/archive/2008/05/13/vs-2008-and-.net-3.5-sp1-beta.aspx/index.html
 ---
 
 Scott Guthrie recently announced the release of [Visual Studio 2008 and .NET Framework 3.5 Service Pack 1 Beta][1].

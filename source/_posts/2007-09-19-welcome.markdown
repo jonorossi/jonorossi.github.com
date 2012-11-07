@@ -4,7 +4,7 @@ title: "Welcome"
 date: 2007-09-19 13:47:33Z
 comments: true
 categories: Personal
-alias: /blog/archive/2007/09/19/welcome.aspx
+alias: /blog/archive/2007/09/19/welcome.aspx/index.html
 ---
 
 Hello, my name is Jonathon Rossi and I'm a student nearing the completion of my Bachelor of Information Technology at QUT in

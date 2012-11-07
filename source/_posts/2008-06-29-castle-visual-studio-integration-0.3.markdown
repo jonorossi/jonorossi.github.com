@@ -4,7 +4,7 @@ title: "Castle Visual Studio Integration 0.3"
 date: 2008-06-29 09:45:36Z
 comments: true
 categories: Castle
-alias: /blog/archive/2008/06/29/castle-visual-studio-integration-0.3.aspx
+alias: /blog/archive/2008/06/29/castle-visual-studio-integration-0.3.aspx/index.html
 ---
 
 {% img right /files/2008/CVSISetup.png %}

@@ -4,7 +4,7 @@ title: "Busy end of 2007"
 date: 2007-12-31 11:00:03Z
 comments: true
 categories: Personal
-alias: /blog/archive/2007/12/31/busy-end-of-2007.aspx
+alias: /blog/archive/2007/12/31/busy-end-of-2007.aspx/index.html
 ---
 
 This blog has been pretty quiet since I last made a release of Castle Visual Studio Integration, but I do have a pretty good excuse.

@@ -4,7 +4,7 @@ title: "Network Switches and 'The Dell Experience'"
 date: 2008-01-08 13:26:46Z
 comments: true
 categories: Networking
-alias: /blog/archive/2008/01/08/network-switches-and-the-dell-experience.aspx
+alias: /blog/archive/2008/01/08/network-switches-and-the-dell-experience.aspx/index.html
 ---
 
 This is my first real blog post about something other than releases of Castle Visual Studio Integration. I appreciate any

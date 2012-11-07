@@ -4,7 +4,7 @@ title: "Bricks - A Preview of a .NET Package Manager"
 date: 2010-04-11 11:02:40Z
 comments: true
 categories: Bricks
-alias: /blog/archive/2010/04/11/bricks-a-preview-of-a-.net-package-manager.aspx
+alias: /blog/archive/2010/04/11/bricks-a-preview-of-a-.net-package-manager.aspx/index.html
 ---
 
 Today, I am announcing the first public preview of a RubyGems-inspired package manager for .NET, [Bricks][1].

@@ -4,7 +4,7 @@ title: "Windows Vista 64-bit"
 date: 2008-01-27 05:22:30Z
 comments: true
 categories: Windows
-alias: /blog/archive/2008/01/27/windows-vista-64-bit.aspx
+alias: /blog/archive/2008/01/27/windows-vista-64-bit.aspx/index.html
 ---
 
 I was going to write a post about the issues I had with Windows Vista 64-bit since just before Christmas when I got my new machine,

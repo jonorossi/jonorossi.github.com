@@ -4,7 +4,7 @@ title: "CVSI Preview 2 Progress"
 date: 2007-09-23 10:29:49Z
 comments: true
 categories: Castle
-alias: /blog/archive/2007/09/23/cvsi-preview-2-progress.aspx
+alias: /blog/archive/2007/09/23/cvsi-preview-2-progress.aspx/index.html
 ---
 
 Since [Castle Project RC3 was released][1] this past week I thought I would let everyone know how Castle Visual Studio Integration

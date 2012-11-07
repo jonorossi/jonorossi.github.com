@@ -4,7 +4,7 @@ title: "Remove an NCover license from a machine"
 date: 2009-01-07 11:46:18Z
 comments: true
 categories: NCover
-alias: /blog/archive/2009/01/07/remove-an-ncover-license-from-a-machine.aspx
+alias: /blog/archive/2009/01/07/remove-an-ncover-license-from-a-machine.aspx/index.html
 ---
 
 I needed to remove the license key for NCover on one of our build machines because the license was moved to another build machine.

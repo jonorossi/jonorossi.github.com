@@ -4,7 +4,7 @@ title: "WiX Progress Text for a Custom Action"
 date: 2008-07-20 11:09:56Z
 comments: true
 categories: Wix
-alias: /blog/archive/2008/07/20/wix-progress-text-for-a-custom-action.aspx
+alias: /blog/archive/2008/07/20/wix-progress-text-for-a-custom-action.aspx/index.html
 ---
 
 The MSI installer for Castle Visual Studio Integration runs both VS2005 and VS2008 with the `/setup` switch to configure the new

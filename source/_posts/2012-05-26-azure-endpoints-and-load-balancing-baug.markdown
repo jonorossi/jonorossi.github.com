@@ -4,7 +4,7 @@ title: "Azure Endpoints and Load Balancing at the Brisbane Azure User Group"
 date: 2012-05-26 13:40:00Z
 comments: true
 categories: Azure
-alias: /blog/archive/2012/05/26/azure-endpoints-and-load-balancing-baug.aspx
+alias: /blog/archive/2012/05/26/azure-endpoints-and-load-balancing-baug.aspx/index.html
 ---
 
 Last week (16 May 2012) I presented at the 4th Brisbane Azure User Group for a session on Azure endpoints, load balancing and the Azure Traffic Manager.

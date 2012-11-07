@@ -4,7 +4,7 @@ title: "Recent Castle Project Lead Changes"
 date: 2008-10-31 13:08:04Z
 comments: true
 categories: Castle
-alias: /blog/archive/2008/10/31/recent-castle-project-lead-changes.aspx
+alias: /blog/archive/2008/10/31/recent-castle-project-lead-changes.aspx/index.html
 ---
 
 Following [Hammett's blog post][1] earlier today announcing that all the projects that form the Castle Project will be lead and

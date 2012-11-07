@@ -4,7 +4,7 @@ title: "Upgrading Castle Visual Studio Integration to VS2008"
 date: 2008-06-29 08:41:32Z
 comments: true
 categories: Castle
-alias: /blog/archive/2008/06/29/upgrading-castle-visual-studio-integration-to-vs2008.aspx
+alias: /blog/archive/2008/06/29/upgrading-castle-visual-studio-integration-to-vs2008.aspx/index.html
 ---
 
 {% img right /files/2008/cvsi.png %}

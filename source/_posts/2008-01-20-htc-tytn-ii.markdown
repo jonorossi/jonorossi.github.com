@@ -4,7 +4,7 @@ title: "HTC TyTN II"
 date: 2008-01-20 10:03:58Z
 comments: true
 categories: Phone
-alias: /blog/archive/2008/01/20/htc-tytn-ii.aspx
+alias: /blog/archive/2008/01/20/htc-tytn-ii.aspx/index.html
 ---
 
 {% img right /files/2008/HTCTyTNII.jpg 260 %}

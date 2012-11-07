@@ -4,7 +4,7 @@ title: "Sync TeamCity build configurations with Git branches"
 date: 2011-11-27 15:18:00Z
 comments: true
 categories: TeamCity
-alias: /blog/archive/2011/11/28/sync-teamcity-build-configurations-with-git-branches.aspx
+alias: /blog/archive/2011/11/28/sync-teamcity-build-configurations-with-git-branches.aspx/index.html
 ---
 
 A few months ago at work we moved from Subversion to Git, which has caused us to make many process changes within our development team.

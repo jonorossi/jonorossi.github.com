@@ -4,7 +4,7 @@ title: "Calling Control.Invoke() with anonymous methods"
 date: 2008-03-02 12:20:52Z
 comments: true
 categories: .NET
-alias: /blog/archive/2008/03/02/calling-control.invoke-with-anonymous-methods.aspx
+alias: /blog/archive/2008/03/02/calling-control.invoke-with-anonymous-methods.aspx/index.html
 ---
 
 With the help of a [blog post][1] by [Jeremy D. Miller][2] and a comment from Geert Baeyaert, I am now using anonymous methods

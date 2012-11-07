@@ -4,7 +4,7 @@ title: "Castle Project Release Dependencies"
 date: 2009-01-28 13:22:43Z
 comments: true
 categories: Castle
-alias: /blog/archive/2009/01/28/castle-project-release-dependencies.aspx
+alias: /blog/archive/2009/01/28/castle-project-release-dependencies.aspx/index.html
 ---
 
 [{% img right /files/2009/CastleProjectReleaseDependencies.png 170 %}](/files/2009/CastleProjectReleaseDependencies.png)

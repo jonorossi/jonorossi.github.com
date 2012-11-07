@@ -4,7 +4,7 @@ title: "Domain names for every network device"
 date: 2008-01-15 12:09:24Z
 comments: true
 categories: Networking
-alias: /blog/archive/2008/01/15/domain-names-for-every-network-device.aspx
+alias: /blog/archive/2008/01/15/domain-names-for-every-network-device.aspx/index.html
 ---
 
 With IPv6 [around the corner][1] it will become mainstream some time in the near future for all computers to be assigned a routable

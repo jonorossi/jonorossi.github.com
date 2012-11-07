@@ -4,7 +4,7 @@ title: "Castle DynamicProxy 2.1 RTM is now available"
 date: 2009-05-04 13:17:52Z
 comments: true
 categories: Castle
-alias: /blog/archive/2009/05/04/castle-dynamicproxy-2.1-rtm-is-now-available.aspx
+alias: /blog/archive/2009/05/04/castle-dynamicproxy-2.1-rtm-is-now-available.aspx/index.html
 ---
 
 After so many years of the Castle Project never making an RTM/GA release, DynamicProxy with Castle Core is the first project after the

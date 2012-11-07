@@ -4,7 +4,7 @@ title: "NDepend for the Castle Project"
 date: 2009-06-07 16:13:11Z
 comments: true
 categories: Castle
-alias: /blog/archive/2009/06/08/ndepend-for-the-castle-project.aspx
+alias: /blog/archive/2009/06/08/ndepend-for-the-castle-project.aspx/index.html
 ---
 
 {% img right /files/2009/ndepend_logo.png %}

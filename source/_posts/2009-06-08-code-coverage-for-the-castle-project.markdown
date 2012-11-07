@@ -4,7 +4,7 @@ title: "Code Coverage for the Castle Project"
 date: 2009-06-07 14:44:02Z
 comments: true
 categories: Castle
-alias: /blog/archive/2009/06/08/castle-ncover-and-ndepend-nant-targets.aspx
+alias: /blog/archive/2009/06/08/castle-ncover-and-ndepend-nant-targets.aspx/index.html
 ---
 
 {% img right /files/2009/ncover_logo.png %}

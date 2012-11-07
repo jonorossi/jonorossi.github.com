@@ -4,7 +4,7 @@ title: "Castle Visual Studio Integration 0.4.0"
 date: 2011-03-07 05:46:27Z
 comments: true
 categories: Castle
-alias: /blog/archive/2011/03/07/castle-visual-studio-integration-0.4.0.aspx
+alias: /blog/archive/2011/03/07/castle-visual-studio-integration-0.4.0.aspx/index.html
 ---
 
 I have been extremely quiet on my blog for the last 12 months or so, however I'm alive and well, I just haven't had much to say.

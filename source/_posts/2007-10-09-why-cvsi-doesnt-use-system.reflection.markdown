@@ -4,7 +4,7 @@ title: "Why CVSI doesn't use System.Reflection"
 date: 2007-10-09 12:18:07Z
 comments: true
 categories: Castle
-alias: /blog/archive/2007/10/09/why-cvsi-doesnt-use-system.reflection.aspx
+alias: /blog/archive/2007/10/09/why-cvsi-doesnt-use-system.reflection.aspx/index.html
 ---
 
 When you use `System.Reflection.Assembly.Loadxxx` it loads the assembly into the current AppDomain unless you specifically load it

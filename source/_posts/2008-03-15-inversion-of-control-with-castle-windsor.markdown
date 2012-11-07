@@ -4,7 +4,7 @@ title: "Inversion of Control with Castle Windsor"
 date: 2008-03-15 07:07:00Z
 comments: true
 categories: Castle
-alias: /blog/archive/2008/03/15/inversion-of-control-with-castle-windsor.aspx
+alias: /blog/archive/2008/03/15/inversion-of-control-with-castle-windsor.aspx/index.html
 ---
 
 In the last few months I have been using [Castle Windsor][1] in a project to improve its design and ease testing. I have found Windsor

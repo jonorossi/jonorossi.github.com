@@ -4,7 +4,7 @@ title: "CVSI 0.2 Alpha Release"
 date: 2007-10-09 09:13:52Z
 comments: true
 categories: Castle
-alias: /blog/archive/2007/10/09/cvsi-0.2-alpha-release.aspx
+alias: /blog/archive/2007/10/09/cvsi-0.2-alpha-release.aspx/index.html
 ---
 
 After way too many hours on working on Castle Visual Studio Integration, I am now releasing an alpha release of 0.2.x.
