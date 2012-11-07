@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Networking | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/networking/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hardware Network Firewall]]></title>
+    <link href="http://jonorossi.com/blog/2008/04/26/hardware-network-firewall/"/>
+    <updated>2008-04-26T06:32:22Z</updated>
+    <id>http://jonorossi.com/blog/2008/04/26/hardware-network-firewall</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/files/2008/VIAITX.jpg"></p>
+
+<p>I have been planning to build a standalone hardware firewall for my home network for quite a long time. I brought a 1Ghz VIA ITX
+17cm x 17cm motherboard towards the end of last year for the firewall but couldn't find a decent case to mount the board in.</p>
+
+<p>I have been looking on eBay for months for a cheap old rackmount network switch or router that I can gut and mount the board inside,
+but nothing has come up cheap. Yesterday I won an eBay auction for a brand new 1U rackmount case, a little flashy for a firewall,
+but I got the case cheap and it has plenty of space for all the components compared to an old network switch.</p>
+
+<p>I was always planning to install <a href="http://www.ipcop.org/">IPCop</a>, but after some research I found both <a href="http://m0n0.ch/wall/">m0n0wall</a> and one of its children <a href="http://www.pfsense.org/">pfSense</a>
+seem more polished. I know from playing around with IPCop that it wasn't the easiest firewall to configure and with m0n0wall/pfSense
+having a single configuration XML file that I can commit into Subversion it is shaping up nicely. pfSense is a fork of m0n0wall and
+has more features but requires a slightly more powerful chip and more RAM. pfSense has several features I am interested in that m0n0wall
+doesn't, including a traffic shaper and installable packages, which includes both <a href="http://www.snort.org/">snort</a> and <a href="http://www.squid-cache.org/">squid</a>. I am now planning to install
+pfSense because it seems a lot more polished than IPCop, but I haven't tried out pfSense myself.</p>
+
+<p>Once I get all the hardware together I'll post further details of my experience. If you have done something similar yourself or just want
+to voice your opinion then I am interested in hearing your comments.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[HP ProCurve 1800-24G Gigabit Network Switch]]></title>
+    <link href="http://jonorossi.com/blog/2008/02/17/hp-procurve-1800-24g-gigabit-network-switch/"/>
+    <updated>2008-02-17T13:20:32Z</updated>
+    <id>http://jonorossi.com/blog/2008/02/17/hp-procurve-1800-24g-gigabit-network-switch</id>
+    <content type="html"><![CDATA[<p>As a follow up to <a href="/blog/2008/01/08/network-switches-and-the-dell-experience/">my post about getting a 24 port gigabit network switch</a>, I have purchased one, but not the one I had planned to.</p>
+
+<p>I did some more research recently before I ordered one and discovered the <a href="http://www.hp.com/rnd/products/switches/ProCurve_Switch_1800_Series/overview.htm">HP ProCurve 1800-24G</a>. I never considered HP in any
+previous research because I expected them to be expensive, however this one turned out slightly cheaper than the Netgear GS724T that
+I was planning to buy.</p>
+
+<p><a href="/files/2008/HPProCurve180024G.jpg"><img src="/files/2008/HPProCurve180024G.jpg"></a></p>
+
+<p>The 1800-24G has many of the same features as the GS724T, including lifetime warranty. However, one difference is that the 1800-24G has
+a less than 4.7 microsecond 100Mbps latency compared to less than 20 microseconds with the GS724T. The 1800-24G then also has a less
+than 3.0 microsecond 1000Mbps latency.</p>
+
+<p>If you or your employer is looking for a gigabit network switch then you should seriously consider the HP ProCurve 1800-24G over cheaper
+brands. I have been really happy with it since I got it nearly a week ago.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Domain names for every network device]]></title>
+    <link href="http://jonorossi.com/blog/2008/01/15/domain-names-for-every-network-device/"/>
+    <updated>2008-01-15T12:09:24Z</updated>
+    <id>http://jonorossi.com/blog/2008/01/15/domain-names-for-every-network-device</id>
+    <content type="html"><![CDATA[<p>With IPv6 <a href="http://arstechnica.com/news.ars/post/20080102-icann-to-add-ipv6-addresses-for-root-dns-servers.html">around the corner</a> it will become mainstream some time in the near future for all computers to be assigned a routable
+IPv6 address. A trend that I'm pretty sure will start in the near future is for network devices in everyone's homes will have a
+subdomain of a personal domain name. One pretty big reason is because it will be difficult to remember and type an address like
+<code>2001:0db8:0000:0000:0000:0000:1428:57ab</code>, compared to something like "john.johnsmithhome.com". I see this getting popular because
+more people are starting to remotely access their home network with things like Windows Home Server.</p>
+
+<p>According to <a href="http://en.wikipedia.org/wiki/IPv6">Wikipedia</a>, IPv6 provides us with "more than a trillion addresses per square centimeter of surface on the planet".
+As mentioned on Wikipedia, not all this address space will be used for allocation to devices, however it is very unlikely we will
+ever run out again. We could start leasing IPv6 addresses to another planet ;).</p>
+
+<p>With all its advantages, IPv6 will cause some problems, it will make it harder for network administrators because IPv6 addresses
+are so much longer to type and compare. But by far the biggest problem I foresee by assigning a routable IP address to every network
+device is that a direct inbound connection can be made by anyone to any network device anywhere. Currently, <a href="http://en.wikipedia.org/wiki/Network_address_translation">NAT</a> protects many
+insecure computers in home networks because it does not allow direct connections to network devices unless explicitly set up.
+Therefore, home routers will need to be shipped with a firewall that blocks all incoming traffic by default and allows for rules
+to be created to open specific ports. End users are going to have to be made more aware that protecting individual machines is more
+important than it has been.</p>
+
+<p>A little off topic, but I have asked myself the question before but could never work it out. Why are domain names right to left?
+Does anyone know?</p>
+
+<p>Wouldn't "http://com.example.mypc:8080/something/" make more sense compared to "http://mypc.example.com:8080/something/".</p>
+
+<p>I can just imagine IntelliSense for domain names, it would be so sweet. Typing "com.google." would display a list with "www", "mail",
+"maps", etc. It would also be useful for the "com.example." example above where you might not remember the full hostname and your
+browser could help you out by asking the Domain Name System.</p>
+
+<p>Since the domain name system is a tree of domain names where the subdomains are resolved from the top level domain name (TLD),
+resolving left to right makes more sense.</p>
+
+<p>The "com.example.mypc" example above reads like, use the HTTP protocol to connect to the host under the "com" TLD, the "example"
+domain name and the "mypc" subdomain" on the application port "8080", then request the resource "/something/".</p>
+
+<p>Most hierarchical representations like code namespaces, web site breadcrumbs and file systems work display left to right. I am
+fully aware that this is not going to change, I just wondered why domain names were put in this format to start with.</p>
+
+<p>So are you looking forward to the worldwide deployment of IPv6, or are you happy with IPv4? I know I am looking forward to IPv6,
+being a computer geek that loves to play with networks. I can't wait until I will be able to set up a 'real' DNS server at home
+and host things wherever I like without worrying about port forwarding and conflicting ports being used by other computers via UPnP.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Network Switches and 'The Dell Experience']]></title>
+    <link href="http://jonorossi.com/blog/2008/01/08/network-switches-and-the-dell-experience/"/>
+    <updated>2008-01-08T13:26:46Z</updated>
+    <id>http://jonorossi.com/blog/2008/01/08/network-switches-and-the-dell-experience</id>
+    <content type="html"><![CDATA[<p>This is my first real blog post about something other than releases of Castle Visual Studio Integration. I appreciate any
+feedback on my content, writing style, or my choice of topic.</p>
+
+<p>Last year I attempted to contact Dell Australia to get prices for their PowerConnect network switch range. I was and still
+am in the market for a 24 port gigabit network switch.</p>
+
+<p>The Dell customer service was terrible. I rang up multiple times a day for over a week. After waiting on hold for a long
+time I got to speak to operators from a call centre in India. I thought Michael Dell came back to improve the company, he must
+have missed the customer service or maybe just Australia. He did very well with the rest of the company, I own a Dell laptop
+and am very happy with it.</p>
+
+<p>From ringing up so many times I was not only frustrated because they couldn't understand me, but I couldn't understand them either.
+The line quality was pretty bad, as well as there being an echo and a delay in the line. They also would always ask you for your
+phone number to ring you back because the line would drop out pretty often, however they would never ring you back if the line did
+drop out. I was also disappointed that very few of the operators I attempted talking to even knew what a Dell PowerConnect was.
+Come on, these guys are meant to be selling expensive gear here and I know more about what they sell than they do. I even rang up
+the number for the 5000+ employee companies (or something like that) and was greeted by a friendly Australian girl, however that is
+as far as my luck went, I was back into the call centre after she forwarded me.</p>
+
+<p>One call I made actually got me to a consultant, however he could only give me "estimates" of prices, what good are estimates, I was
+asking for a quote. I got half way through asking for prices for several models and the line dropped out. A lot of what this consultant
+said didn't make sense. The prices he provided are actually more expensive than the prices I obtained from Dell over a year ago.</p>
+
+<p>I finally gave up trying to get prices from them; something must have been telling me that Dell network switches are not worth looking at.</p>
+
+<p>I am currently considering purchasing a <a href="http://www.netgear.com/Products/Switches/SmartSwitches/GS724T.aspx">Netgear GS724T</a> 24-port gigabit switch. Both the Netgear switch and an equivalent Dell have
+the same switching capacity of 48Gbps, so they are pretty comparable.</p>
+
+<p>I don't need (and can't afford) a Cisco, so I am looking at Netgear, Linksys and D-Link. The switch will be used at home so it isn't going
+to be flogged all day long and doesn't need to have all the fancy VLAN and VPN support that Cisco switches have. Have you got one of these
+type switches or used them before? Do you prefer one brand over another? Do you have any recommendations for me?</p>
+]]></content>
+  </entry>
+  
+</feed>

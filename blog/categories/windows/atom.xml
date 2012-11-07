@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Windows | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/windows/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Windows Vista lowers power consumption by running NIC at 10Mbit]]></title>
+    <link href="http://jonorossi.com/blog/2008/01/28/windows-vista-lowers-power-consumption-by-running-nic-at-10mbit/"/>
+    <updated>2008-01-28T13:27:37Z</updated>
+    <id>http://jonorossi.com/blog/2008/01/28/windows-vista-lowers-power-consumption-by-running-nic-at-10mbit</id>
+    <content type="html"><![CDATA[<p>I recently ran out of ports in my network switch, so I moved my computer over to my router as shown below (which is now also full).
+I noticed about a week ago that the light for my computer (port 4 of 4) was orange when my computer was off, according to my router's
+manual an orange LAN light means it is running at 10Mbit instead of 100Mbit. My first thought was that my UPS had bugged my motherboard
+because my UPS is faulty, but I didn't think that was right because I have <a href="http://www.velocityreviews.com/reviews/Thermaltake_ToughPower_550_Power_Supply/1/">a pretty nice PSU</a> that is meant to prevent any power problems.</p>
+
+<p><img class="center" src="/files/2008/Router10MbitConnection.jpg"></p>
+
+<p>When I switched the network cable from one NIC in my motherboard to the other, the light went green, which made me nervous. Just to check
+I plugged my computer into the wall socket for my laptop and it did the same thing which made me more nervous. After flicking the switch
+on my power supply and waiting for my PSU to drain its capacitor, I turned it back on and the light on my router went green. That's when
+I realised that Vista must be being too smart for itself and is running the NIC at 10Mbit when it turns off the computer to save power.</p>
+
+<p>I am aware that Vista's support for <a href="http://www.acpi.info/">ACPI</a> (Advanced Configuration and Power Interface) is really good. It puts my computer to sleep
+so the computer makes no noise and I can start using it again in only a second. I searched around for other people who have discovered
+this and couldn't find any info that Vista does actually do this, so I can only assume that this is another nice feature of
+<a href="http://www.zdnet.com.au/news/software/soa/Microsoft-goes-on-green-Vista-offensive/0,130061733,339274460,00.htm">'Green Vista'</a> and that I really don't have any hardware problems.</p>
+
+<p>Has anyone else seen the same behaviour?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows Vista 64-bit]]></title>
+    <link href="http://jonorossi.com/blog/2008/01/27/windows-vista-64-bit/"/>
+    <updated>2008-01-27T05:22:30Z</updated>
+    <id>http://jonorossi.com/blog/2008/01/27/windows-vista-64-bit</id>
+    <content type="html"><![CDATA[<p>I was going to write a post about the issues I had with Windows Vista 64-bit since just before Christmas when I got my new machine,
+however I just haven't had many problems. When I installed I had no problems with drivers and all the software except one thing
+(no 64-bit support) has installed and run without problems so far.</p>
+
+<p>I have found Vista 64-bit to be really stable and reliable, that's not to say I am not eagerly awaiting SP1 to fix several annoying
+things with Vista, namely the copy/move file dialog. From what I have read of the <a href="http://technet2.microsoft.com/windowsvista/en/library/005f921e-f706-401e-abb5-eec42ea0a03e1033.mspx?mfr=true">changes for SP1</a>, Vista will become a much
+more polished OS, just as SP1 and SP2 did for Windows XP.</p>
+
+<p>I built my new AMD dual core machine when I got Vista 64-bit, so having no driver problems is most likely because all the hardware
+was new and was supported on Vista 64-bit.</p>
+
+<p>Before I built my new machine I was trying to decide whether I'd jump to Vista 64-bit with all the horror stories I had heard, let
+alone the problems with Vista 32-bit. One of the reasons I decided to go with Vista 64-bit was that XP and Vista 32-bit only support
+3GB of RAM and I wanted 4GB. There are countless other nice features like the search box in the start menu which make Vista in general
+a much more featured OS. However, I have no regrets with going to Vista 64-bit and would assume I'd have a just as good experience with
+Vista 32-bit and can only expect it to get better with the upcoming SP1 release.</p>
+
+<p>Companies like Dell are currently selling PCs with 3GB of RAM running on Vista 32-bit. Computer manufacturers are now at the limit with
+the amount of memory they can put in a machine for Vista 32-bit, which means that support for Vista 64-bit in software becomes so much
+more important for ISVs. That means that all consumers will benefit from the improved 64-bit support throughout the software industry.</p>
+]]></content>
+  </entry>
+  
+</feed>

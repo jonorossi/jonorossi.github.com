@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: NCover | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/ncover/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Remove an NCover license from a machine]]></title>
+    <link href="http://jonorossi.com/blog/2009/01/07/remove-an-ncover-license-from-a-machine/"/>
+    <updated>2009-01-07T11:46:18Z</updated>
+    <id>http://jonorossi.com/blog/2009/01/07/remove-an-ncover-license-from-a-machine</id>
+    <content type="html"><![CDATA[<p>I needed to remove the license key for NCover on one of our build machines because the license was moved to another build machine.</p>
+
+<p>I didn't find anything using Google, so by trial and no error deleting the value named <code>Key</code> from the key <code>HKLM\SOFTWARE\Gnoso\NCover</code>
+did the trick with NCover v2.1.</p>
+
+<p>I'm writing this down so I know how to do it if I need to do it again, and for anyone else's reference.</p>
+]]></content>
+  </entry>
+  
+</feed>

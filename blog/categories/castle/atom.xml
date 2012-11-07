@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Castle | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/castle/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Castle Visual Studio Integration 0.4.0]]></title>
+    <link href="http://jonorossi.com/blog/2011/03/07/castle-visual-studio-integration-0.4.0/"/>
+    <updated>2011-03-07T05:46:27Z</updated>
+    <id>http://jonorossi.com/blog/2011/03/07/castle-visual-studio-integration-0.4.0</id>
+    <content type="html"><![CDATA[<p>I have been extremely quiet on my blog for the last 12 months or so, however I'm alive and well, I just haven't had much to say.</p>
+
+<p>After many requests for Visual Studio 2010 support for Castle Visual Studio Integration, I did the pretty painless work back in November 2010,
+but just didn't get around to releasing it.</p>
+
+<p>You can now download the source code from GitHub and get the binaries via the Visual Studio Extension Manager. See the <a href="/projects/cvsi/">CVSI page</a> for full details.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[DynamicProxy Logging]]></title>
+    <link href="http://jonorossi.com/blog/2009/11/29/dynamicproxy-logging/"/>
+    <updated>2009-11-29T08:21:23Z</updated>
+    <id>http://jonorossi.com/blog/2009/11/29/dynamicproxy-logging</id>
+    <content type="html"><![CDATA[<p><a href="/files/2009/DPLoggingDemo.png"><img class="right" src="/files/2009/DPLoggingDemo.png" width="244"></a></p>
+
+<p>I have just committed some logging (r6370) into the DynamicProxy codebase which will be in the soon to be released v2.2.</p>
+
+<p><a href="http://issues.castleproject.org/issue/DYNPROXY-120">Krzysztof Kozmic suggested</a> a few weeks back that we should add some logging mainly around type caching and anything else that may
+help users diagnose common problems.</p>
+
+<p>In the screenshot, you can see examples of the logging that you can enable. Note that the blue info messages were logged by the demo console
+application not by DynamicProxy.</p>
+
+<p>The logging is implemented using the Castle logging infrastructure so Windsor can provide an ILogger directly to a ProxyGenerator. If a
+ProxyGenerator class is not instantiated by a container the default logger that DynamicProxy uses is a trace logger set to display messages
+at the warning level. By default this means that any messages at warning or higher logged by DynamicProxy will be visible in the Visual
+Studio output window.</p>
+
+<p>If you have feedback on the DynamicProxy logging, or ideas for more logging then let us know on the <a href="http://www.castleproject.org/community/mailinglists.html">mailing lists</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NVelocity 1.1 and TemplateEngine 1.1]]></title>
+    <link href="http://jonorossi.com/blog/2009/09/28/nvelocity-1.1-and-templateengine-1.1/"/>
+    <updated>2009-09-28T14:42:49Z</updated>
+    <id>http://jonorossi.com/blog/2009/09/28/nvelocity-1.1-and-templateengine-1.1</id>
+    <content type="html"><![CDATA[<p>Castle NVelocity 1.1.0 and the Castle TemplateEngine component 1.1.0 have just been released. Many thanks to the TemplateEngine project
+lead John Simons.</p>
+
+<p>Visit the <a href="http://www.castleproject.org/">Castle Project web site</a> for download details.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Compiling for .NET 2.0 with Csc 3.5 under NAnt]]></title>
+    <link href="http://jonorossi.com/blog/2009/07/06/compiling-for-.net-2.0-with-csc-3.5-under-nant/"/>
+    <updated>2009-07-06T12:52:35Z</updated>
+    <id>http://jonorossi.com/blog/2009/07/06/compiling-for-.net-2.0-with-csc-3.5-under-nant</id>
+    <content type="html"><![CDATA[<p>The Castle Project dropped support for .NET 2.0 on the trunk last year, however as project leader of DynamicProxy I decided we would
+continue to support DynamicProxy on .NET 2.0 until downstream projects (e.g. NHibernate) no longer support it.</p>
+
+<p>Castle Core has had a reference to System.Core for quite some time, however it is conditionally compiled with support for .NET 2.0,
+Silverlight and Mono.</p>
+
+<p>Up until recently we had been making sure we didn't use any C# 3.0 features in DynamicProxy so we could still build for .NET 2.0 with
+the .NET 2.0 compiler, however this has always been a little annoying.</p>
+
+<p>I worked out that changing the frameworkdirectory attribute on the net-2.0 framework element in NAnt.exe.config will make NAnt use
+Csc 3.5. You just need to change 'v2.0.50727' to 'v3.5'.</p>
+
+<p>With this change we can now use the var keyword, lambda expressions, object initializers and anonymous types.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Castle NCover and NDepend NAnt targets]]></title>
+    <link href="http://jonorossi.com/blog/2009/06/08/castle-ncover-and-ndepend-nant-targets/"/>
+    <updated>2009-06-08T11:01:44Z</updated>
+    <id>http://jonorossi.com/blog/2009/06/08/castle-ncover-and-ndepend-nant-targets</id>
+    <content type="html"><![CDATA[<p>I forgot to mention the new targets in the previous posts. If you want to generate either the NCover or NDepend reports like the
+ones available from TeamCity use these targets.</p>
+
+<p>If you run <code>nant coverage</code> it will enable running <code>nunit-console</code> under NCover to produce the coverage XML log files, and run a build.
+The target will also generate the summary coverage report.</p>
+
+<p>Using <code>nant ndepend</code> will run a build and generate the report from the artifacts.</p>
+]]></content>
+  </entry>
+  
+</feed>

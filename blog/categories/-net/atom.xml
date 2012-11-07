@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: .NET | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/-net/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Creating COM interop assemblies like Visual Studio]]></title>
+    <link href="http://jonorossi.com/blog/2009/01/03/creating-com-interop-assemblies-like-visual-studio/"/>
+    <updated>2009-01-03T15:33:53Z</updated>
+    <id>http://jonorossi.com/blog/2009/01/03/creating-com-interop-assemblies-like-visual-studio</id>
+    <content type="html"><![CDATA[<p>Unfortunately, we still use COM to access a few of our own and 3rd party native libraries in our product from .NET code.</p>
+
+<p>In my journey to improve our build system I needed to work out how to generate COM interop assemblies exactly like Visual Studio does
+when you add a reference to a type library.</p>
+
+<p>Just run the Type Library Importer (<code>tlbimp</code>) like following substituting {0} with your library's name. The key is the <code>/namespace</code> argument
+which defaults to <code>Interop</code> if not specified.</p>
+
+<p><code>tlbimp.exe {0}.dll /strictref /namespace:{0} /out:Interop.{0}.dll</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[VS 2008 and .NET 3.5 SP1 Beta]]></title>
+    <link href="http://jonorossi.com/blog/2008/05/13/vs-2008-and-.net-3.5-sp1-beta/"/>
+    <updated>2008-05-13T12:37:08Z</updated>
+    <id>http://jonorossi.com/blog/2008/05/13/vs-2008-and-.net-3.5-sp1-beta</id>
+    <content type="html"><![CDATA[<p>Scott Guthrie recently announced the release of <a href="http://weblogs.asp.net/scottgu/archive/2008/05/12/visual-studio-2008-and-net-framework-3-5-service-pack-1-beta.aspx">Visual Studio 2008 and .NET Framework 3.5 Service Pack 1 Beta</a>.</p>
+
+<p>I think it is good and all that they are building some nice new features, but I get this feeling that the naming of this release is going to
+cause problems. I suspect that most developers/users assume a service pack will contain bug fixes and maybe a few very minor features.
+I can see this becoming confusing for people where they have the .NET Framework 3.5 and can't run something because they need SP1.
+This same issue has started to become a problem with .NET Framework 2.0/2.0 SP1, so I'm sure the same problem will occur on a much larger
+scale with 3.5/3.5 SP1.</p>
+
+<p>Is it just me or should Microsoft really be going to .NET Framework 3.6 or something similar? Maybe developers will just have to start referring
+to 3.5 SP1 as 3.5.1.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Calling Control.Invoke() with anonymous methods]]></title>
+    <link href="http://jonorossi.com/blog/2008/03/02/calling-control.invoke-with-anonymous-methods/"/>
+    <updated>2008-03-02T12:20:52Z</updated>
+    <id>http://jonorossi.com/blog/2008/03/02/calling-control.invoke-with-anonymous-methods</id>
+    <content type="html"><![CDATA[<p>With the help of a <a href="http://codebetter.com/blogs/jeremy.miller/archive/2006/11/05/Using-Anonymous-Methods-with-Control.Invoke_28002900_.aspx">blog post</a> by <a href="http://codebetter.com/blogs/jeremy.miller/default.aspx">Jeremy D. Miller</a> and a comment from Geert Baeyaert, I am now using anonymous methods
+with Control.Invoke(). This code sure beats writing delegates for every control you want to make changes to.</p>
+
+<p>The basic code is as follows, which can be improved to check <code>Control.InvokeRequired</code> to improve performance:</p>
+
+<pre><code>Invoke((MethodInvoker)delegate {
+    // Code to access WinForms controls here
+});
+</code></pre>
+]]></content>
+  </entry>
+  
+</feed>

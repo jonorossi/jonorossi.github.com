@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Compiling for .NET 2.0 with Csc 3.5 under NAnt - Jonathon Rossi</title>
+  <meta name="author" content="Jonathon Rossi">
+
+  
+  <meta name="description" content="The Castle Project dropped support for .NET 2.0 on the trunk last year, however as project leader of DynamicProxy I decided we would
+continue to &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jonorossi.com/blog/2009/07/06/compiling-for-.net-2.0-with-csc-3.5-under-nant/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jonathon Rossi" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-526927-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jonathon Rossi</a></h1>
+  
+    <h2>My little bit of the internet.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jonorossi.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/projects/cvsi/">CVSI</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Compiling for .NET 2.0 with Csc 3.5 under NAnt</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-07-06T12:52:35Z" pubdate data-updated="true">Jul 6<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The Castle Project dropped support for .NET 2.0 on the trunk last year, however as project leader of DynamicProxy I decided we would
+continue to support DynamicProxy on .NET 2.0 until downstream projects (e.g. NHibernate) no longer support it.</p>
+
+<p>Castle Core has had a reference to System.Core for quite some time, however it is conditionally compiled with support for .NET 2.0,
+Silverlight and Mono.</p>
+
+<p>Up until recently we had been making sure we didn&#8217;t use any C# 3.0 features in DynamicProxy so we could still build for .NET 2.0 with
+the .NET 2.0 compiler, however this has always been a little annoying.</p>
+
+<p>I worked out that changing the frameworkdirectory attribute on the net-2.0 framework element in NAnt.exe.config will make NAnt use
+Csc 3.5. You just need to change &#8216;v2.0.50727&#8217; to &#8216;v3.5&#8217;.</p>
+
+<p>With this change we can now use the var keyword, lambda expressions, object initializers and anonymous types.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jonathon Rossi</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-07-06T12:52:35Z" pubdate data-updated="true">Jul 6<span>th</span>, 2009</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/castle/'>Castle</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jonorossi.com/blog/2009/07/06/compiling-for-.net-2.0-with-csc-3.5-under-nant/" data-via="jonorossi" data-counturl="http://jonorossi.com/blog/2009/07/06/compiling-for-.net-2.0-with-csc-3.5-under-nant/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2009/06/08/castle-ncover-and-ndepend-nant-targets/" title="Previous Post: Castle NCover and NDepend NAnt targets">&laquo; Castle NCover and NDepend NAnt targets</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/09/28/nvelocity-1.1-and-templateengine-1.1/" title="Next Post: NVelocity 1.1 and TemplateEngine 1.1">NVelocity 1.1 and TemplateEngine 1.1 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/05/26/azure-endpoints-and-load-balancing-baug/">Azure Endpoints and Load Balancing at the Brisbane Azure User Group</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/11/27/sync-teamcity-build-configurations-with-git-branches/">Sync TeamCity build configurations with Git branches</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/03/07/castle-visual-studio-integration-0.4.0/">Castle Visual Studio Integration 0.4.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/04/11/bricks-a-preview-of-a-.net-package-manager/">Bricks - A Preview of a .NET Package Manager</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/11/29/dynamicproxy-logging/">DynamicProxy Logging</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jonorossi", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jonorossi" class="twitter-follow-button" data-show-count="false">Follow @jonorossi</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jonathon Rossi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

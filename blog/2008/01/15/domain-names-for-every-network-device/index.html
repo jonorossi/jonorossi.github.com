@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Domain names for every network device - Jonathon Rossi</title>
+  <meta name="author" content="Jonathon Rossi">
+
+  
+  <meta name="description" content="With IPv6 around the corner it will become mainstream some time in the near future for all computers to be assigned a routable
+IPv6 address. A trend &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jonorossi.com/blog/2008/01/15/domain-names-for-every-network-device/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Jonathon Rossi" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-526927-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jonathon Rossi</a></h1>
+  
+    <h2>My little bit of the internet.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jonorossi.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/projects/cvsi/">CVSI</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Domain names for every network device</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-15T12:09:24Z" pubdate data-updated="true">Jan 15<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>With IPv6 <a href="http://arstechnica.com/news.ars/post/20080102-icann-to-add-ipv6-addresses-for-root-dns-servers.html">around the corner</a> it will become mainstream some time in the near future for all computers to be assigned a routable
+IPv6 address. A trend that I&#8217;m pretty sure will start in the near future is for network devices in everyone&#8217;s homes will have a
+subdomain of a personal domain name. One pretty big reason is because it will be difficult to remember and type an address like
+<code>2001:0db8:0000:0000:0000:0000:1428:57ab</code>, compared to something like &#8220;john.johnsmithhome.com&#8221;. I see this getting popular because
+more people are starting to remotely access their home network with things like Windows Home Server.</p>
+
+<p>According to <a href="http://en.wikipedia.org/wiki/IPv6">Wikipedia</a>, IPv6 provides us with &#8220;more than a trillion addresses per square centimeter of surface on the planet&#8221;.
+As mentioned on Wikipedia, not all this address space will be used for allocation to devices, however it is very unlikely we will
+ever run out again. We could start leasing IPv6 addresses to another planet ;).</p>
+
+<p>With all its advantages, IPv6 will cause some problems, it will make it harder for network administrators because IPv6 addresses
+are so much longer to type and compare. But by far the biggest problem I foresee by assigning a routable IP address to every network
+device is that a direct inbound connection can be made by anyone to any network device anywhere. Currently, <a href="http://en.wikipedia.org/wiki/Network_address_translation">NAT</a> protects many
+insecure computers in home networks because it does not allow direct connections to network devices unless explicitly set up.
+Therefore, home routers will need to be shipped with a firewall that blocks all incoming traffic by default and allows for rules
+to be created to open specific ports. End users are going to have to be made more aware that protecting individual machines is more
+important than it has been.</p>
+
+<p>A little off topic, but I have asked myself the question before but could never work it out. Why are domain names right to left?
+Does anyone know?</p>
+
+<p>Wouldn&#8217;t &#8220;http://com.example.mypc:8080/something/&#8221; make more sense compared to &#8220;http://mypc.example.com:8080/something/&#8221;.</p>
+
+<p>I can just imagine IntelliSense for domain names, it would be so sweet. Typing &#8220;com.google.&#8221; would display a list with &#8220;www&#8221;, &#8220;mail&#8221;,
+&#8220;maps&#8221;, etc. It would also be useful for the &#8220;com.example.&#8221; example above where you might not remember the full hostname and your
+browser could help you out by asking the Domain Name System.</p>
+
+<p>Since the domain name system is a tree of domain names where the subdomains are resolved from the top level domain name (TLD),
+resolving left to right makes more sense.</p>
+
+<p>The &#8220;com.example.mypc&#8221; example above reads like, use the HTTP protocol to connect to the host under the &#8220;com&#8221; TLD, the &#8220;example&#8221;
+domain name and the &#8220;mypc&#8221; subdomain&#8221; on the application port &#8220;8080&#8221;, then request the resource &#8220;/something/&#8221;.</p>
+
+<p>Most hierarchical representations like code namespaces, web site breadcrumbs and file systems work display left to right. I am
+fully aware that this is not going to change, I just wondered why domain names were put in this format to start with.</p>
+
+<p>So are you looking forward to the worldwide deployment of IPv6, or are you happy with IPv4? I know I am looking forward to IPv6,
+being a computer geek that loves to play with networks. I can&#8217;t wait until I will be able to set up a &#8216;real&#8217; DNS server at home
+and host things wherever I like without worrying about port forwarding and conflicting ports being used by other computers via UPnP.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jonathon Rossi</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-15T12:09:24Z" pubdate data-updated="true">Jan 15<span>th</span>, 2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/networking/'>Networking</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jonorossi.com/blog/2008/01/15/domain-names-for-every-network-device/" data-via="jonorossi" data-counturl="http://jonorossi.com/blog/2008/01/15/domain-names-for-every-network-device/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2008/01/08/network-switches-and-the-dell-experience/" title="Previous Post: Network Switches and 'The Dell Experience'">&laquo; Network Switches and 'The Dell Experience'</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2008/01/20/htc-tytn-ii/" title="Next Post: HTC TyTN II">HTC TyTN II &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/05/26/azure-endpoints-and-load-balancing-baug/">Azure Endpoints and Load Balancing at the Brisbane Azure User Group</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/11/27/sync-teamcity-build-configurations-with-git-branches/">Sync TeamCity build configurations with Git branches</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2011/03/07/castle-visual-studio-integration-0.4.0/">Castle Visual Studio Integration 0.4.0</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2010/04/11/bricks-a-preview-of-a-.net-package-manager/">Bricks - A Preview of a .NET Package Manager</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2009/11/29/dynamicproxy-logging/">DynamicProxy Logging</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("jonorossi", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/jonorossi" class="twitter-follow-button" data-show-count="false">Follow @jonorossi</a>
+  
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Jonathon Rossi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

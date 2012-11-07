@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Azure | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/azure/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Azure Endpoints and Load Balancing at the Brisbane Azure User Group]]></title>
+    <link href="http://jonorossi.com/blog/2012/05/26/azure-endpoints-and-load-balancing-baug/"/>
+    <updated>2012-05-26T13:40:00Z</updated>
+    <id>http://jonorossi.com/blog/2012/05/26/azure-endpoints-and-load-balancing-baug</id>
+    <content type="html"><![CDATA[<p>Last week (16 May 2012) I presented at the 4th Brisbane Azure User Group for a session on Azure endpoints, load balancing and the Azure Traffic Manager.
+I've uploaded my slides and a screenshot of the demo application to test the Windows Azure Traffic Manager.</p>
+
+<p><a href="/files/2012/baug4-endpoints-and-load-balancing.pdf">Download Slides</a></p>
+
+<p><img src="/files/2012/baug4-ppt-slide.png">
+<img src="/files/2012/baug4-photo.jpg">
+<img src="/files/2012/baug4-trafficmanager-demo.png"></p>
+]]></content>
+  </entry>
+  
+</feed>

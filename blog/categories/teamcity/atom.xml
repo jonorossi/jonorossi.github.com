@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: TeamCity | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/teamcity/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Sync TeamCity build configurations with Git branches]]></title>
+    <link href="http://jonorossi.com/blog/2011/11/27/sync-teamcity-build-configurations-with-git-branches/"/>
+    <updated>2011-11-27T15:18:00Z</updated>
+    <id>http://jonorossi.com/blog/2011/11/27/sync-teamcity-build-configurations-with-git-branches</id>
+    <content type="html"><![CDATA[<p>A few months ago at work we moved from Subversion to Git, which has caused us to make many process changes within our development team.
+By forcing everyone to work in a new Git branch for every task has added overhead to the build management process. Several of us have
+slowly been getting tired of manually creating new TeamCity build configurations just to run a single build that we later have to manually
+remove after our release managers have merged our changes.</p>
+
+<p>To remove some of this burden we needed TeamCity to automatically create configurations for all our private development branches, so in
+lieu of the excellent JetBrains team building this feature (<a href="http://youtrack.jetbrains.net/issue/TW-16052">TW-16052</a>), I very quickly wrote an app that does just that for us.</p>
+
+<p>I was asked by a few in the TeamCity issue above to provide the code we are using, so I have uploaded a slightly modified version of the
+code to GitHub. The app is written in C# and uses the <a href="https://github.com/libgit2/libgit2sharp">libgit2sharp</a> library, but could easily be ported to another language or the
+command line tools respectively.</p>
+
+<p>So that a few things make sense when you read it, our private development branch convention is "private/username/anything", so with a single
+TeamCity project for these branches it will name them "username-anything". You'll see that when it creates the build configuration it creates
+it from our branch template and sets the BRANCH_NAME configuration variable, which we use as the Ref name in a VCS root (i.e. %BRANCH_NAME%).</p>
+
+<p><a href="https://gist.github.com/1397643">https://gist.github.com/1397643</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TeamCity Duplicates Finder Source Code Permissions]]></title>
+    <link href="http://jonorossi.com/blog/2009/05/15/teamcity-duplicates-finder-source-code-permissions/"/>
+    <updated>2009-05-15T22:18:07Z</updated>
+    <id>http://jonorossi.com/blog/2009/05/15/teamcity-duplicates-finder-source-code-permissions</id>
+    <content type="html"><![CDATA[<p><a href="/files/2009/TeamCity_ViewVCSFileContentPermission.png"><img class="right" src="/files/2009/TeamCity_ViewVCSFileContentPermission.png" width="260"></a></p>
+
+<p>I set up the .NET Duplicates Finder feature of TeamCity yesterday for Castle, and was later told that a guest (set up as the project viewer role)
+could not see the source code in the report. TeamCity was displaying "You do not have enough permissions to view this file content" instead of
+the source code.</p>
+
+<p>I remembered today that the roles in TeamCity were made configurable in 4.5 and adding the "View VCS file content" permission to the project
+viewer role now allows everyone to see the source code in the report.</p>
+
+<p>This report provides some interesting results and is well worth setting up. One caveat is the requirement of a Visual Studio solution file
+which TeamCity uses to search for the source code.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Personal | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Busy end of 2007]]></title>
+    <link href="http://jonorossi.com/blog/2007/12/31/busy-end-of-2007/"/>
+    <updated>2007-12-31T11:00:03Z</updated>
+    <id>http://jonorossi.com/blog/2007/12/31/busy-end-of-2007</id>
+    <content type="html"><![CDATA[<p>This blog has been pretty quiet since I last made a release of Castle Visual Studio Integration, but I do have a pretty good excuse.</p>
+
+<p>I completed my Bachelor of Information Technology at <a href="http://www.qut.edu.au">QUT</a> in November, and after a short break to recover from all the lost sleep,
+I started work at <a href="http://www.transmax.com.au/">Transmax</a>. We build intelligent transport systems in Australia by providing a complete solution to traffic authorities,
+including signal, motorway and incident management. If you are interested in learning more or are looking for a new job in Brisbane, Australia,
+then head to our web site or send me an email.</p>
+
+<p>In the week before starting work I ordered the parts to build my new computer because my old desktop just wasn't cutting it anymore. My old
+computer was well past its use by date for a developer/power user and I had just been putting it off because I was always busy with university
+work and I didn't want to set everything up again. My new computer is pretty standard compared to what most developers are using these days.
+It is an AMD Athlon 64 X2 with 4GB of RAM, running Windows Vista 64-bit. I'll go into more detail about my new computer and my experiences
+of Windows Vista 64-bit in another post.</p>
+
+<p>At home, as an early Christmas present we got a new Samsung 81cm HD LCD TV, so I have been watching more TV and movies. I was so used to our
+older, much smaller CRT TV that, I didn't realise how much I was actually missing of what was going on in TV shows because the TV is so much
+clearer and brighter. We also upgraded our <a href="http://en.wikipedia.org/wiki/Home_theater_PC">HTPC</a> when we shuffled around our computers.</p>
+
+<p>Slowly, over the last month and a bit my brother and I have been rearranging our network. My old desktop is now my Dad's new desktop and with
+that came many other changes, some complete rebuilds, some just hardware component switches between machines. One of my brother's machines
+became our new HTPC and from other changes I made a new machine for our <a href="http://en.wikipedia.org/wiki/Network-attached_storage">NAS</a>. I plan to write about what I am doing with our network and
+how I have set it up in a new post in the new year.</p>
+
+<p>To finish things off I bought a new phone, a <a href="http://www.htc.com/product/03-product_tytn_II.htm">HTC TyTN II</a>. My old phone, a <a href="http://www.nokia.com.au/A4520430">Nokia 6610</a> has been playing up for a while, mainly some of
+the buttons would stop working. I hadn't decided what phone I wanted until the loudspeaker/ringer in the phone stopped working a couple months
+ago, so I was forced to make a decision. I got my new Windows Mobile phone the day after Boxing Day from <a href="http://www.three.com.au/">3</a> and I am really liking Windows
+Mobile. I'll follow up on my experience with this phone in the next few days.</p>
+
+<p>Happy New Year</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome]]></title>
+    <link href="http://jonorossi.com/blog/2007/09/19/welcome/"/>
+    <updated>2007-09-19T13:47:33Z</updated>
+    <id>http://jonorossi.com/blog/2007/09/19/welcome</id>
+    <content type="html"><![CDATA[<p>Hello, my name is Jonathon Rossi and I'm a student nearing the completion of my Bachelor of Information Technology at QUT in
+Brisbane, Australia. This is the mandatory first 'welcome to my blog' post that all new bloggers seem to do.</p>
+
+<p>I'm a .NET software developer and am interested in the work many others are doing and have been a member of the Castle Project
+open source community for a while. I don't have a set plan on what I will be blogging about, however it will probably include
+current projects I am working on and details of the topics I am learning about.</p>
+
+<p>Without further ado, welcome to my blog.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Bricks | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/bricks/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bricks - A Preview of a .NET Package Manager]]></title>
+    <link href="http://jonorossi.com/blog/2010/04/11/bricks-a-preview-of-a-.net-package-manager/"/>
+    <updated>2010-04-11T11:02:40Z</updated>
+    <id>http://jonorossi.com/blog/2010/04/11/bricks-a-preview-of-a-.net-package-manager</id>
+    <content type="html"><![CDATA[<p>Today, I am announcing the first public preview of a RubyGems-inspired package manager for .NET, <a href="http://bricksproject.org/">Bricks</a>.</p>
+
+<p>Bricks is very basic at this point, however over the coming months I intend to continue improving it and its central repository to benefit
+both myself and the wider community. At the moment the only thing I can guarantee is that things will break because supporting backwards
+compatibility is not important.</p>
+
+<p>I welcome you to download and take a look at Bricks. If you have ideas or want to discuss things I would prefer the discussion to occur on
+the <a href="http://groups.google.com/group/bricks-devel">mailing list</a>, rather than the comments here.</p>
+]]></content>
+  </entry>
+  
+</feed>

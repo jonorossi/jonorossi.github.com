@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Wix | Jonathon Rossi]]></title>
+  <link href="http://jonorossi.com/blog/categories/wix/atom.xml" rel="self"/>
+  <link href="http://jonorossi.com/"/>
+  <updated>2012-11-07T21:46:49+10:00</updated>
+  <id>http://jonorossi.com/</id>
+  <author>
+    <name><![CDATA[Jonathon Rossi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WiX Progress Text for a Custom Action]]></title>
+    <link href="http://jonorossi.com/blog/2008/07/20/wix-progress-text-for-a-custom-action/"/>
+    <updated>2008-07-20T11:09:56Z</updated>
+    <id>http://jonorossi.com/blog/2008/07/20/wix-progress-text-for-a-custom-action</id>
+    <content type="html"><![CDATA[<p>The MSI installer for Castle Visual Studio Integration runs both VS2005 and VS2008 with the <code>/setup</code> switch to configure the new
+Visual Studio package. Because this process can take a while, I tried to work out how to display custom status text while the
+custom action was running, but had no luck in finding any documentation about how to do this until just recently.</p>
+
+<p>If you have a custom action like:</p>
+
+<pre><code>&lt;CustomAction Id="CA_DevEnv2008Setup" Property="DEVENV2008_EXE_PATH" ExeCommand="/setup" Impersonate="no" Execute="deferred" /&gt;
+</code></pre>
+
+<p>Then a <code>ProgressText</code> element like the following will set the status text while it is running:</p>
+
+<pre><code>&lt;UI&gt;
+  &lt;ProgressText Action="CA_DevEnv2008Setup"&gt;Configuring Visual Studio 2008... (this may take a few minutes&lt;/ProgressText&gt;
+&lt;/UI&gt;
+</code></pre>
+
+<p>I found the details of how to do this in a <a href="http://sourceforge.net/mailarchive/message.php?msg_id=028001c836c1%24fb70a270%24f251e750%24%25langley%40seconag.com">forum post</a> on the WiX sourceforge mailing list.</p>
+]]></content>
+  </entry>
+  
+</feed>
