@@ -95,6 +95,15 @@ See the <a href="http://www.castleproject.org/castle/vsintegration.html">Castle 
 <h3>Releases</h3>
 
 <ul>
+<li><strong>0.5.0:</strong> (25 May 2014, <a href="https://github.com/jonorossi/cvsi/commit/2b91889acb7430c6f6893f1321c3c151ccecaca8">2b91889</a>)
+
+<ul>
+<li><strong>VS2013:</strong> <a href="cvsi-0.5.0-vs2013.vsix">cvsi-0.5.0-vs2013.vsix</a></li>
+<li><strong>VS2012:</strong> <a href="cvsi-0.5.0-vs2012.vsix">cvsi-0.5.0-vs2012.vsix</a></li>
+<li><strong>VS2005/2008/2010:</strong> No changes from 0.4.0</li>
+<li><strong>Note:</strong> I haven&#8217;t been able to work out how to have a single vsix on the Visual Studio Gallery for all Visual Studio versions so 2012 and 2013 will be here for now.</li>
+</ul>
+</li>
 <li><strong>0.4.0:</strong> (07 Mar 2011, c6cbce9)
 
 <ul>
@@ -127,6 +136,14 @@ See the <a href="http://www.castleproject.org/castle/vsintegration.html">Castle 
 <li><strong>License:</strong> Apache License Version 2.0</li>
 </ul>
 
+
+<h3>Having trouble with syntax hightlighting not working?</h3>
+
+<p>Visual Studio (especially 2012+) seems to aggressively cache its fonts and colours cache.
+You&#8217;ll need to manually reset the cache by deleting the Cache key in the registry:</p>
+
+<pre><code>HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\xx.0\FontAndColors\Cache
+</code></pre>
 
 <h3>Screenshots</h3>
 
@@ -181,22 +198,6 @@ See the <a href="http://www.castleproject.org/castle/vsintegration.html">Castle 
 </section>
 
 
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("jonorossi", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/jonorossi" class="twitter-follow-button" data-show-count="false">Follow @jonorossi</a>
-  
-</section>
-
 
 
 
@@ -208,7 +209,7 @@ See the <a href="http://www.castleproject.org/castle/vsintegration.html">Castle 
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Jonathon Rossi -
+  Copyright &copy; 2014 - Jonathon Rossi -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 
