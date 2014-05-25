@@ -15,6 +15,11 @@ __New Project Wizard:__ If you are looking for the New Project wizard you will n
 See the [Castle Project web site][1] for more details.
 
 ### Releases
+* __0.5.0:__ (25 May 2014, [2b91889][5])
+  * __VS2013:__ <a href="cvsi-0.5.0-vs2013.vsix">cvsi-0.5.0-vs2013.vsix</a>
+  * __VS2012:__ <a href="cvsi-0.5.0-vs2012.vsix">cvsi-0.5.0-vs2012.vsix</a>
+  * __VS2005/2008/2010:__ No changes from 0.4.0
+  * __Note:__ I haven't been able to work out how to have a single vsix on the Visual Studio Gallery for all Visual Studio versions so 2012 and 2013 will be here for now.
 * __0.4.0:__ (07 Mar 2011, c6cbce9)
   * __VS2010:__ See the [Visual Studio Gallery][2]</a> (or search for 'castle' in the Visual Studio Extension Manager)
   * __VS2005/2008:__ No changes from 0.3.2
@@ -37,6 +42,12 @@ See the [Castle Project web site][1] for more details.
 * __Change Log:__ See [Changes.txt][4] for full details of the changes.
 * __License:__ Apache License Version 2.0
 
+### Having trouble with syntax hightlighting not working?
+Visual Studio (especially 2012+) seems to aggressively cache its fonts and colours cache.
+You'll need to manually reset the cache by deleting the Cache key in the registry:
+
+    HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\xx.0\FontAndColors\Cache
+
 ### Screenshots
 [{% img /projects/cvsi/screenshots/colorizer_large.png %}](/projects/cvsi/screenshots/colorizer_large.png)
 
@@ -55,3 +66,4 @@ See the [Castle Project web site][1] for more details.
 [2]: http://visualstudiogallery.msdn.microsoft.com/5f5f4523-95f6-4277-b499-959950368a4d
 [3]: https://github.com/jonorossi/cvsi
 [4]: https://github.com/jonorossi/cvsi/blob/master/doc/Changes.txt
+[5]: https://github.com/jonorossi/cvsi/commit/2b91889acb7430c6f6893f1321c3c151ccecaca8
