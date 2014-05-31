@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Why CVSI doesn't use System.Reflection - Jonathon Rossi</title>
+  <title>Castle Visual Studio Integration 0.5.0 - Jonathon Rossi</title>
   <meta name="author" content="Jonathon Rossi">
 
   
-  <meta name="description" content="When you use System.Reflection.Assembly.Loadxxx it loads the assembly into the current AppDomain unless you specifically load it
-into another &hellip;">
+  <meta name="description" content="I&#8217;ve had a few requests over the last year and a bit for Visual Studio 2012 and 2013 support for Castle Visual Studio Integration.
+I released &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ into another &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jonorossi.com/blog/2007/10/09/why-cvsi-doesnt-use-system.reflection/">
+  <link rel="canonical" href="http://jonorossi.com/blog/2014/05/31/castle-visual-studio-integration-0.5.0/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -82,7 +82,7 @@ into another &hellip;">
   
   <header>
     
-      <h1 class="entry-title">Why CVSI doesn't use System.Reflection</h1>
+      <h1 class="entry-title">Castle Visual Studio Integration 0.5.0</h1>
     
     
       <p class="meta">
@@ -98,32 +98,22 @@ into another &hellip;">
   
 
 
-<time datetime="2007-10-09T12:18:07Z" pubdate data-updated="true">Oct 9<span>th</span>, 2007</time>
+<time datetime="2014-05-31T09:02:00Z" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>When you use <code>System.Reflection.Assembly.Loadxxx</code> it loads the assembly into the current AppDomain unless you specifically load it
-into another AppDomain. The problem with this is that there is no way to unload the assembly unless you unload the whole AppDomain.
-Therefore, loading an assembly using <code>Assembly.Load</code> locks the assembly on the disk until you unload the AppDomain which prevents
-you from being able to rebuild your project.</p>
+<div class="entry-content"><p><img class="right" src="/projects/cvsi/cvsi_logo.png"></p>
 
-<p>If you create another AppDomain and unload it every time you needed to reflect over assemblies the performance of the IntelliSense
-would make it nearly useless. This is because it takes a second or so to create an AppDomain and another second to unload it. This
-is why ASP.NET is slow at refreshing the page after you rebuild your project because it unloads the old AppDomain and creates a new
-one with your new assemblies. ASP.NET does not have the problem of locked assemblies because it shadow copies them to a temporary
-directory.</p>
+<p>I&#8217;ve had a few requests over the last year and a bit for Visual Studio 2012 and 2013 support for Castle Visual Studio Integration.
+I released a preview with support for Visual Studio 2012 nearly two years ago, but last weekend bit the bullet after a
+little push from <a href="https://twitter.com/schwarty">a long time user</a>.</p>
 
-<p>I considered using <a href="http://plas.fit.qut.edu.au/perwapi/">PERWAPI</a> because I have used it before for another compiler, but I decided to use <a href="http://www.mono-project.com/Cecil">Mono Cecil</a> because I
-had never used it before and have seen it used for other projects at <a href="http://www.castleproject.org/">Castle</a>. Both PERWAPI and Mono Cecil read the assembly off
-the disk just like you would open a normal file. They then build up objects to represent the structure of the assembly. By using a
-reader like these you do not have the problems of loading the types into the CLR that you do with <code>System.Reflection</code>. The main
-limitation of these readers is obvious, you cannot create instances of classes or execute the code in the assembly.</p>
-
-<p>Castle Visual Studio Integration reads the assemblies in your &#8216;Bin&#8217; directory using Mono Cecil and finds all the helpers and view
-components so that it can display them in the IntelliSense lists in Visual Studio as quickly as possible.</p>
+<p>You can download the source code from <a href="https://github.com/jonorossi/cvsi">GitHub</a> if you are interested and you can get the binaries (a VSIX) from the
+<a href="/projects/cvsi/">CVSI page</a>. The 2012 and 2013 releases are not available through the Visual Studio Extension Manager, see the
+<a href="/projects/cvsi/">CVSI page</a> if you want to know why.</p>
 </div>
 
 
@@ -146,7 +136,7 @@ components so that it can display them in the IntelliSense lists in Visual Studi
   
 
 
-<time datetime="2007-10-09T12:18:07Z" pubdate data-updated="true">Oct 9<span>th</span>, 2007</time>
+<time datetime="2014-05-31T09:02:00Z" pubdate data-updated="true">May 31<span>st</span>, 2014</time>
       
 
 <span class="categories">
@@ -160,7 +150,7 @@ components so that it can display them in the IntelliSense lists in Visual Studi
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jonorossi.com/blog/2007/10/09/why-cvsi-doesnt-use-system.reflection/" data-via="" data-counturl="http://jonorossi.com/blog/2007/10/09/why-cvsi-doesnt-use-system.reflection/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://jonorossi.com/blog/2014/05/31/castle-visual-studio-integration-0.5.0/" data-via="" data-counturl="http://jonorossi.com/blog/2014/05/31/castle-visual-studio-integration-0.5.0/" >Tweet</a>
   
   
   
@@ -169,10 +159,8 @@ components so that it can display them in the IntelliSense lists in Visual Studi
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2007/10/09/cvsi-0.2-alpha-release/" title="Previous Post: CVSI 0.2 Alpha Release">&laquo; CVSI 0.2 Alpha Release</a>
+        <a class="basic-alignment left" href="/blog/2012/11/07/migration-to-octopress/" title="Previous Post: Migration to Octopress">&laquo; Migration to Octopress</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2007/10/29/cvsi-0.2.1/" title="Next Post: CVSI 0.2.1">CVSI 0.2.1 &raquo;</a>
       
     </p>
   </footer>

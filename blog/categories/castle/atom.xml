@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Castle | Jonathon Rossi]]></title>
   <link href="http://jonorossi.com/blog/categories/castle/atom.xml" rel="self"/>
   <link href="http://jonorossi.com/"/>
-  <updated>2014-05-25T18:04:59+10:00</updated>
+  <updated>2014-05-31T19:17:57+10:00</updated>
   <id>http://jonorossi.com/</id>
   <author>
     <name><![CDATA[Jonathon Rossi]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Castle Visual Studio Integration 0.5.0]]></title>
+    <link href="http://jonorossi.com/blog/2014/05/31/castle-visual-studio-integration-0.5.0/"/>
+    <updated>2014-05-31T09:02:00Z</updated>
+    <id>http://jonorossi.com/blog/2014/05/31/castle-visual-studio-integration-0.5.0</id>
+    <content type="html"><![CDATA[<p><img class="right" src="/projects/cvsi/cvsi_logo.png"></p>
+
+<p>I've had a few requests over the last year and a bit for Visual Studio 2012 and 2013 support for Castle Visual Studio Integration.
+I released a preview with support for Visual Studio 2012 nearly two years ago, but last weekend bit the bullet after a
+little push from <a href="https://twitter.com/schwarty">a long time user</a>.</p>
+
+<p>You can download the source code from <a href="https://github.com/jonorossi/cvsi">GitHub</a> if you are interested and you can get the binaries (a VSIX) from the
+<a href="/projects/cvsi/">CVSI page</a>. The 2012 and 2013 releases are not available through the Visual Studio Extension Manager, see the
+<a href="/projects/cvsi/">CVSI page</a> if you want to know why.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Castle Visual Studio Integration 0.4.0]]></title>
@@ -81,21 +98,6 @@ the .NET 2.0 compiler, however this has always been a little annoying.</p>
 Csc 3.5. You just need to change 'v2.0.50727' to 'v3.5'.</p>
 
 <p>With this change we can now use the var keyword, lambda expressions, object initializers and anonymous types.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Castle NCover and NDepend NAnt targets]]></title>
-    <link href="http://jonorossi.com/blog/2009/06/08/castle-ncover-and-ndepend-nant-targets/"/>
-    <updated>2009-06-08T11:01:44Z</updated>
-    <id>http://jonorossi.com/blog/2009/06/08/castle-ncover-and-ndepend-nant-targets</id>
-    <content type="html"><![CDATA[<p>I forgot to mention the new targets in the previous posts. If you want to generate either the NCover or NDepend reports like the
-ones available from TeamCity use these targets.</p>
-
-<p>If you run <code>nant coverage</code> it will enable running <code>nunit-console</code> under NCover to produce the coverage XML log files, and run a build.
-The target will also generate the summary coverage report.</p>
-
-<p>Using <code>nant ndepend</code> will run a build and generate the report from the artifacts.</p>
 ]]></content>
   </entry>
   
