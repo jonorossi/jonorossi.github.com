@@ -8,7 +8,7 @@ footer: false
 
 {% img right /projects/cvsi/cvsi_logo.png %}
 
-Castle Visual Studio Integration (CVSI) provides Microsoft Visual Studio 2005/2008/2010 integration for the Castle Project.
+Castle Visual Studio Integration (CVSI) provides Microsoft Visual Studio integration for the Castle Project.
 Currently it only contains a colorizer and IntelliSense for the NVelocity language.
 
 __New Project Wizard:__ If you are looking for the New Project wizard you will need the official Visual Studio integration.
